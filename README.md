@@ -166,38 +166,41 @@ Entre los principales:
 
 ### Morosidad
 
-$$ \mathrm{Morosidad}=\frac{\mathrm{Cartera\ improductiva}}{\mathrm{Cartera\ bruta}} $$
-
-\[ \mathrm{Morosidad}=\frac{\mathrm{Cartera\ improductiva}}{\mathrm{Cartera\ bruta}} \]
+$$ 
+\mathrm{Morosidad}
+=
+\frac{\mathrm{Cartera\ improductiva}}
+{\mathrm{Cartera\ bruta}}
+$$
 
 La composición de cartera improductiva contempla el cambio del catálogo contable ocurrido desde mayo de 2021.
 
 ### Cobertura
 
-\[
+$$
 \mathrm{Cobertura}
 =
 \frac{|\mathrm{Provisiones}|}
 {\mathrm{Cartera\ improductiva}}
-\]
+$$
 
 ### Liquidez
 
-\[
+$$
 \mathrm{Liquidez}
 =
 \frac{\mathrm{Fondos\ disponibles}}
 {\mathrm{Depósitos\ de\ corto\ plazo}}
-\]
+$$
 
 ### Capitalización
 
-\[
+$$
 \mathrm{Patrimonio/Activos}
 =
 \frac{\mathrm{Patrimonio}}
 {\mathrm{Activos}}
-\]
+$$
 
 ### Crecimiento de depósitos
 
@@ -207,12 +210,12 @@ Variaciones de depósitos a 3 y 12 meses.
 
 Se utiliza un proxy contable de ROA:
 
-\[
+$$
 \mathrm{ROA}
 =
 \frac{\mathrm{Ingresos}-\mathrm{Gastos}}
 {\mathrm{Activos}}
-\]
+$$
 
 Las fórmulas operativas y cuentas utilizadas se encuentran en:
 
