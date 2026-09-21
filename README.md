@@ -166,12 +166,7 @@ Entre los principales:
 
 ### Morosidad
 
-\[
-\mathrm{Morosidad}
-=
-\frac{\mathrm{Cartera\ improductiva}}
-{\mathrm{Cartera\ bruta}}
-\]
+\[\mathrm{Morosidad}=\frac{\mathrm{Cartera\ improductiva}}{\mathrm{Cartera\ bruta}}\]
 
 La composición de cartera improductiva contempla el cambio del catálogo contable ocurrido desde mayo de 2021.
 
