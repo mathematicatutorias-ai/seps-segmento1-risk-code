@@ -1,5 +1,7 @@
 # SEPS Segmento 1 Risk
 
+https://mathematicatutorias-ai.github.io/seps-segmento1-risk/
+
 Monitor reproducible de riesgo financiero para cooperativas del **Segmento 1** del sistema financiero popular y solidario de Ecuador, construido a partir de información pública de la **Superintendencia de Economía Popular y Solidaria (SEPS)**.
 
 El proyecto descarga e integra los estados financieros mensuales publicados por la SEPS, construye indicadores comparables entre entidades, genera series temporales y señales de deterioro, y publica un **dashboard HTML estático** listo para GitHub Pages.
