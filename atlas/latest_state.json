@@ -1,0 +1,115 @@
+{
+  "started_at": "2026-09-21T17:44:20.253334+00:00",
+  "backend": "parquet+duckdb",
+  "sources_checked": 10,
+  "sources_discovered": 10,
+  "inserted": 0,
+  "updated": 0,
+  "unchanged": 0,
+  "resume_skipped": 8,
+  "source_sha_skipped": 0,
+  "errors": [
+    {
+      "source": "EEFF-MEN-BASE-2026",
+      "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='estadisticas.seps.gob.ec', port=443): Max retries exceeded with url: /?sdm_process_download=1&download_id=3258 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794d32c39bd0>, 'Connection to estadisticas.seps.gob.ec timed out. (connect timeout=90)'))\"))"
+    },
+    {
+      "source": "EEFF-MEN-BASE-ANTERIORES",
+      "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='estadisticas.seps.gob.ec', port=443): Max retries exceeded with url: /?sdm_process_download=1&download_id=899 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794d32c39f90>, 'Connection to estadisticas.seps.gob.ec timed out. (connect timeout=90)'))\"))"
+    }
+  ],
+  "warnings": [],
+  "discovery": {
+    "diagnostics": [
+      {
+        "source_key": "eeff_monthly",
+        "page": 1,
+        "url": "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/",
+        "ok": false,
+        "matches": 0,
+        "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='estadisticas.seps.gob.ec', port=443): Max retries exceeded with url: /index.php/sdm_categories/bases-financiero/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794d32c39310>, 'Connection to estadisticas.seps.gob.ec timed out. (connect timeout=90)'))\"))"
+      },
+      {
+        "source_key": "eeff_monthly",
+        "page": 2,
+        "url": "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/page/2/",
+        "ok": false,
+        "matches": 0,
+        "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='estadisticas.seps.gob.ec', port=443): Max retries exceeded with url: /index.php/sdm_categories/bases-financiero/page/2/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794d322417f0>, 'Connection to estadisticas.seps.gob.ec timed out. (connect timeout=90)'))\"))"
+      },
+      {
+        "source_key": "eeff_monthly",
+        "page": 3,
+        "url": "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/page/3/",
+        "ok": false,
+        "matches": 0,
+        "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='estadisticas.seps.gob.ec', port=443): Max retries exceeded with url: /index.php/sdm_categories/bases-financiero/page/3/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794d32c3a490>, 'Connection to estadisticas.seps.gob.ec timed out. (connect timeout=90)'))\"))"
+      }
+    ],
+    "modes": [
+      {
+        "eeff_monthly": {
+          "mode": "incremental",
+          "page_limit": 3,
+          "workers": 6,
+          "fresh": 0,
+          "cached": 19
+        }
+      }
+    ]
+  },
+  "migration": {
+    "needed": false,
+    "reason": "parquet_exists"
+  },
+  "features": {
+    "rows": 122233,
+    "peer_rows": 2897,
+    "features": 8,
+    "components": 24
+  },
+  "signals": {
+    "entities": 51,
+    "signals": 255
+  },
+  "inference": {
+    "enabled": false,
+    "n_entities": 52,
+    "n_positive_events": 0,
+    "minimum_positive_events": 12,
+    "minimum_entities": 25,
+    "fitted": false,
+    "reason": "No supera gate mínimo"
+  },
+  "dashboard": {
+    "mode": "live",
+    "entities": 52,
+    "default_ruc": "1790866084001",
+    "generated_at": "2026-09-21T17:54:30.222435+00:00",
+    "bundle_bytes": 5061071,
+    "build_id": "0260921T1754302224350000",
+    "index": "/content/drive/MyDrive/seps-segmento1-risk/githubpage/index.html"
+  },
+  "storage": {
+    "backend": "parquet+duckdb",
+    "partitions": 104,
+    "rows_manifest": 5622471,
+    "first_period": "2018-01",
+    "last_period": "2026-08",
+    "sources": 9,
+    "path": "/content/drive/MyDrive/seps-segmento1-risk/data/parquet/eeff"
+  },
+  "finished_at": "2026-09-21T17:55:38.038803+00:00",
+  "atlas": {
+    "nodes": 263,
+    "edges": 271,
+    "files": 89,
+    "unresolved": 0,
+    "handoff": {
+      "latest": "atlas/handoff/LATEST_STATE.zip",
+      "snapshot": "atlas/handoff/snapshots/SEPS_STATE_20260921175631.zip",
+      "files": 120,
+      "sha256": "4318c052d399320dd1cf52bb03d288a0edea409c9dc2726e3f05b90862a6d393"
+    }
+  }
+}

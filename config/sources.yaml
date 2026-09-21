@@ -1,0 +1,49 @@
+http:
+  user_agent: "Mozilla/5.0 SEPS-S1-Risk/0.7"
+  timeout_seconds: 90
+sources:
+  eeff_monthly:
+    enabled: true
+    kind: eeff
+    discovery_pages:
+      - "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/"
+    max_pages: 15
+    title_regex: '(?i)^EEFF[-_ ]?MEN[-_ ]?BASE[-_ ]?(?:ANTERIORES|20\d{2})$'
+    accepted_extensions: [".zip", ".csv", ".txt", ".xlsx", ".xls"]
+    fail_if_no_items: true
+    canonical_columns:
+      cutoff_date: ["fecha de corte", "fecha_corte", "fecha corte", "fecha"]
+      segment: ["segmento", "segment"]
+      ruc: ["ruc", "num_ruc", "identificacion", "identificación"]
+      entity_name: ["razon social", "razón social", "entidad", "nombre entidad"]
+      account: ["cuenta", "codigo cuenta", "código cuenta", "cta"]
+      account_description: ["descripcion cuenta", "descripción cuenta", "descripcion", "descripción"]
+      balance: ["saldo usd", "saldo (usd)", "saldo", "valor"]
+  risk_ratings:
+    enabled: false
+    kind: ratings
+    discovery_pages: ["https://estadisticas.seps.gob.ec/index.php/sdm_downloads/"]
+    max_pages: 10
+    title_regex: '(?i)calificaci[oó]n de riesgo'
+    accepted_extensions: [".xlsx", ".xls", ".csv", ".zip", ".pdf"]
+  technical_equity:
+    enabled: false
+    kind: technical_equity
+    discovery_pages: ["https://estadisticas.seps.gob.ec/index.php/sdm_categories/reportes-financiero/"]
+    max_pages: 10
+    title_regex: '(?i)^PAT[-_ ]?20\d{2}$'
+    accepted_extensions: [".xlsx", ".xls", ".csv", ".zip"]
+  deposits:
+    enabled: false
+    kind: deposits
+    discovery_pages: ["https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/"]
+    max_pages: 20
+    title_regex: '(?i)^CAP[-_ ]?MEN[-_ ]?BASE[-_ ]?20\d{2}$'
+    accepted_extensions: [".xlsx", ".xls", ".csv", ".zip", ".txt"]
+  placements:
+    enabled: false
+    kind: placements
+    discovery_pages: ["https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/"]
+    max_pages: 20
+    title_regex: '(?i)^COL[-_ ]?MEN[-_ ]?BASE[-_ ]?20\d{2}$'
+    accepted_extensions: [".xlsx", ".xls", ".csv", ".zip", ".txt"]

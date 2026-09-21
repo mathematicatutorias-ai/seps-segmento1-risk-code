@@ -1,0 +1,1668 @@
+{
+  "generated_at": "2026-09-21T17:56:25.915025+00:00",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "2d11a57d6da866707eb9fb314ad88f6513d4054c4ae387d81370ebc457b4df76",
+      "size": 526,
+      "kind": "document"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "b60c771b215447ba03c5baeda28b8fe34dae82a386bbaaf1143480728999e703",
+      "size": 3956,
+      "kind": "document"
+    },
+    {
+      "path": "CONTRATO.md",
+      "sha256": "2b72cab13956f21dac9b8521a44c98438feb73f67e8e23ce46f584aec9f852e4",
+      "size": 3525,
+      "kind": "document"
+    },
+    {
+      "path": "MASTER_SEPS.ipynb",
+      "sha256": "3dcd48a7feb2ab64373383162fd302a7487f022ddd7dc671c93ffef6e18d3a97",
+      "size": 18625,
+      "kind": "document"
+    },
+    {
+      "path": "PROJECT_TREE.txt",
+      "sha256": "9e8d2de277908a69148094a1864f7c8b03d468aa47c7c99c3719a6fb1990c8f5",
+      "size": 4024,
+      "kind": "document"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c1a0b0c0f7056b5a838bb4a034e19b8723dbfa9270f2840b0ca151225a87c765",
+      "size": 3589,
+      "kind": "document"
+    },
+    {
+      "path": "atlas/README.md",
+      "sha256": "4f86c2d842c8ad944b136d2a50da164a6c00a24d88d3cdab73fb0d4cbf01da14",
+      "size": 1477,
+      "kind": "document"
+    },
+    {
+      "path": "config/events.yaml",
+      "sha256": "5e0385a94d45f3d311a92e8109fdddf99fa57f1c14cbc28567ca9e9542ed5ea9",
+      "size": 166,
+      "kind": "document"
+    },
+    {
+      "path": "config/features.yaml",
+      "sha256": "27eb50eb68381c94ade6524280d35d32b5ffb5ff40c01601f598b08402bb1c30",
+      "size": 3162,
+      "kind": "document"
+    },
+    {
+      "path": "config/github.yaml",
+      "sha256": "6d70569ed993aebd52bbbb6c5df2945e0ed6363e501e375aedc9ef4e016b7b08",
+      "size": 669,
+      "kind": "document"
+    },
+    {
+      "path": "config/project.yaml",
+      "sha256": "bd33215a063ae39c708c6c35ab0ce3f2768536bd2b20d6575a85a53d29dced0a",
+      "size": 3301,
+      "kind": "document"
+    },
+    {
+      "path": "config/sources.yaml",
+      "sha256": "c8fc9e9ba7f6eaa1c691804483b592210d69f28af68f26ce2cce8f0dc0e2fd7c",
+      "size": 2107,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/01_fuentes_seps.md",
+      "sha256": "8ddaf63fe6507ae05dc5ca49c141f505d0c25fda0d2242c580fd4b03f7c6e8f8",
+      "size": 102,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/02_modelo_datos.md",
+      "sha256": "66ea7ca3d055448152baead324887284655ccf5e381a8a35aee365ec9e335b1d",
+      "size": 489,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/03_ingestion.md",
+      "sha256": "85f44a2c8664e3a91d52b49dbe1c708b29cd3fd86e5a1067e3e37505555f5af8",
+      "size": 881,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/04_calidad_datos.md",
+      "sha256": "854f5a70616ac63dc8febcf3cccc5f6feced47a5a92b711ed17a5f52262490d0",
+      "size": 86,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/05_indicadores_financieros.md",
+      "sha256": "e5ed10507dc5b04c597faaaa9e2b8e09c329fcdd8cff5a4fa5b1b8d2d3cb2fcb",
+      "size": 605,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/06_eventos_default.md",
+      "sha256": "87f40daf4ee9e35b5690286185bcfa43c7438568783af69ec2a2d058a1ee22ce",
+      "size": 90,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/07_publicacion_web.md",
+      "sha256": "3582729b95d102da858ec0d4360463884f2e6b86e2fea7aaa5467a434af67258",
+      "size": 1846,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/08_atlas_continuidad.md",
+      "sha256": "2a27c454fa6bf68ab178c36b3a7f1df37c6fc4aa187c1079737a02828afea1dd",
+      "size": 938,
+      "kind": "document"
+    },
+    {
+      "path": "contracts/09_publicacion_github.md",
+      "sha256": "a0db6578ad26e57605f1c631f8956e0fa8adb1a555c475ea4b731b07725eec42",
+      "size": 1002,
+      "kind": "document"
+    },
+    {
+      "path": "githubpage/assets/app.css",
+      "sha256": "15c59a03631468856eda41f454e53e4e2e8615ec603187c4c5a3afb5e21f04f2",
+      "size": 11448,
+      "kind": "code"
+    },
+    {
+      "path": "githubpage/assets/app.js",
+      "sha256": "c98a3ab7907e56665698493da4d2a4627114ad1d767ddd4432a2b632892aa94a",
+      "size": 35233,
+      "kind": "code"
+    },
+    {
+      "path": "githubpage/index.html",
+      "sha256": "231ede5e4a6facec621e7c73a60a8154a93bae7d12ca9d1a33327bdd4855d0b9",
+      "size": 10829,
+      "kind": "code"
+    },
+    {
+      "path": "notebooks/001_inspeccion_cruda_base_y_morosidad.ipynb",
+      "sha256": "68529c81a4b0e92f6936a9e83b5f012a5be153749dec8f0374589ee177f85ebb",
+      "size": 136195,
+      "kind": "document"
+    },
+    {
+      "path": "notebooks/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "sha256": "6aeeb2d191aa8f1b46c2a3fc3c8b11c2d86bfc9952f2ccb5a1b6b2f585b80e2a",
+      "size": 241646,
+      "kind": "document"
+    },
+    {
+      "path": "notebooks/README.md",
+      "sha256": "0fd90c5d5cf976d57fc1f5c18b1d7f9852f00e63311c612754bfd073a58f8620",
+      "size": 95,
+      "kind": "document"
+    },
+    {
+      "path": "notebooks/jobs/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "sha256": "0397f2bdfdf38dac398eebbbe7059ab1d7ad5e795e3d8852b272674fdd25eee7",
+      "size": 36767,
+      "kind": "document"
+    },
+    {
+      "path": "notebooks/jobs/output/002_inspeccion_cruda/diagnostico.json",
+      "sha256": "c4b5b0c7cdea965d4ed897ff4b9b75b6f2f023aa3fa9213cf6b780b12df27c90",
+      "size": 816,
+      "kind": "document"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "e5d67968a0de67a3aa180ede99af4cc8794ea2c4d76c70be01272d2ea4a04be7",
+      "size": 462,
+      "kind": "document"
+    },
+    {
+      "path": "scripts/00_master.py",
+      "sha256": "8f11a55abfbd8efa003b411a93ec1154b6b116cdbb75e01c4651b931d717fa2a",
+      "size": 99,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/01_init_database.py",
+      "sha256": "c4815cdd635ac01aa24fba6552b0a260320861bbbafe30a45a1d2c951a1e7c0b",
+      "size": 162,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/10_run_qa.py",
+      "sha256": "e9b4830bb7e40a4eda9a42af3e52c40abe54ded181dae63f663eb44bc2c2ac1c",
+      "size": 250,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/20_build_features.py",
+      "sha256": "b52ac37e5eaea1ea2bd4621bccfdebee5ab163ccb279f628a31b5f925b925041",
+      "size": 160,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/30_build_signals.py",
+      "sha256": "5f4b440d2f4bf17f7375ebd0573a1c772ba5419570d7dad1e66eefda4dbe17d3",
+      "size": 230,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/31_import_events.py",
+      "sha256": "db78e82a417511ac5169d4297db0411744301d9f7e9f9efef42170601678553a",
+      "size": 769,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/80_export_dashboard.py",
+      "sha256": "ea61ade9f51d6aba6978c6b2e8a7768056939eaae70127042b0e98bf9da6a783",
+      "size": 392,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/90_build_atlas.py",
+      "sha256": "b139c3532f588b8e6f8bd190ceb8fd9554ff78238c0ddeff6c50631a2e385232",
+      "size": 118,
+      "kind": "code"
+    },
+    {
+      "path": "scripts/95_publish_github.py",
+      "sha256": "6223430c1cb81f5049cbd42350684a982514d8892ec81d2143903f5398a9c44c",
+      "size": 416,
+      "kind": "code"
+    },
+    {
+      "path": "sql/indexes.sql",
+      "sha256": "6465383511d3198522c31ffa4c2d4ef4f7b488f5601ede694d3268a144f17b43",
+      "size": 100,
+      "kind": "code"
+    },
+    {
+      "path": "sql/schema.sql",
+      "sha256": "86f6b294685dda1a68ef45bffda7e454b65656058cdbade1637347f468e18134",
+      "size": 291,
+      "kind": "code"
+    },
+    {
+      "path": "src/seps_segmento1_risk.egg-info/SOURCES.txt",
+      "sha256": "9802a459c9d17b25df16e0b90d10741373c31d344ee12daeff71fc7b535df122",
+      "size": 1536,
+      "kind": "document"
+    },
+    {
+      "path": "src/seps_segmento1_risk.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1,
+      "kind": "document"
+    },
+    {
+      "path": "src/seps_segmento1_risk.egg-info/requires.txt",
+      "sha256": "4fa888c3b60483e5aaa6d74ba643331a5873819109ee9b1879872ec53e931ac8",
+      "size": 203,
+      "kind": "document"
+    },
+    {
+      "path": "src/seps_segmento1_risk.egg-info/top_level.txt",
+      "sha256": "18a19ab343197e208f06a6ecdcd8f7f8836ea2478c96d2b1187cecfa73867ef4",
+      "size": 9,
+      "kind": "document"
+    },
+    {
+      "path": "src/sepsrisk/__init__.py",
+      "sha256": "a9b8b5c4624c6173284e20617f9df9ce7eec99e075c84b49a5b1b4a1ea46fffc",
+      "size": 21,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/atlas/build.py",
+      "sha256": "2ef4e21d9c258e27d718718679486623d1fc8eb0a64eef2f8104784083a27a63",
+      "size": 14610,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/config.py",
+      "sha256": "61149f57fd8ec84f738c1916c025a514df0bf2a30536b91a540bd200ee44666f",
+      "size": 418,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/database.py",
+      "sha256": "95a7de6b90430ae805bf51a28e5714403181b35ce4bbe328db9ee6e331959f69",
+      "size": 736,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/features/engine.py",
+      "sha256": "9aeeff3c93f3f056612746fb95387eca1c51659818f14f62c8af6c4be7cc3d95",
+      "size": 5046,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/inference/signals.py",
+      "sha256": "0d6a9bf4ed4a3313d113d8249a1608db4c0705c03f1bd72ccf9b49fdd8835c8f",
+      "size": 2313,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/inference/survival.py",
+      "sha256": "6a516f4b14d9b99e95ad78f23f4be4d7dd47d0e88c8b7920ea48bba229b3f405",
+      "size": 3965,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "sha256": "877aeedea771ac9289ec58e73fac4febc8f031eef5b95eff9c0cfc184838d565",
+      "size": 2696,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "sha256": "f344cd7c0d5a2e8570787498e33733c7356bd4229fd11b8fb13dbc9a7382ebc1",
+      "size": 8956,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "sha256": "bd171925ec52a6ea22897648f6810b62ff0e3d50aab08d57a200112e01595802",
+      "size": 2468,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/pipeline.py",
+      "sha256": "e98aaf27f2801341219117411c95d23d96d38d0b31d20b9c42dd6e643f0e256b",
+      "size": 11481,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/progress.py",
+      "sha256": "328de41d07f8b4896e9cf370945088b787dee58ff581b70a1ff7eb3a1daff593",
+      "size": 4088,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/publication/__init__.py",
+      "sha256": "871f79fc460bcac6ffe469d5549c51b8f9c0b4be8f4aa5d3194f500fcfbbdcb8",
+      "size": 36,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/publication/github.py",
+      "sha256": "30c33a4cb0252f9f97263b886aa56b6b8ddebbf975d0609565128810f1368175",
+      "size": 5550,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/qa/core.py",
+      "sha256": "f063feae81d7c0aba719b19338a1f6f3a7d975e04d9caa96e9267c11d7624bf1",
+      "size": 325,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "sha256": "784be5199c143b6d5f965730b75e667fab9ef460eb2bd2d5846ad50b271bde87",
+      "size": 11740,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/reporting/index_template.html",
+      "sha256": "606f01aba6fc8bb79fa00338b673a11be31cca620373b748b8414c9362c19551",
+      "size": 10146,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/sources/discovery.py",
+      "sha256": "8e487e6bce80ec1813cec9382344b21c535b5f22d9feaad2dc8215953037922b",
+      "size": 5237,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/storage/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/storage/analytics.py",
+      "sha256": "0c014ebd9103b5b9bb90ebf44fd96574c053de664524e80782a19df821583db5",
+      "size": 3467,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "sha256": "580182a3033a7bb07697259bbd87daf4ccdd24dca7d5bd1dd4276cb4e4b93d87",
+      "size": 14203,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/storage/state.py",
+      "sha256": "72a004f779ba282bed8755fba23e369e584ecb6f2f676b23339929c2df9cbabd",
+      "size": 1919,
+      "kind": "code"
+    },
+    {
+      "path": "src/sepsrisk/utils.py",
+      "sha256": "85eeac4cb7d8f3dfef95333b96dbb7873c19dc269a6c00475a9031c49e3f1481",
+      "size": 831,
+      "kind": "code"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "3d3e3dc4b62d0e88c1dd094e7a8672c9ca05ed47bf11d71b109e965aa60846e4",
+      "size": 123,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_academic_disclaimer.py",
+      "sha256": "2a12101efcd246dfd7750dc7e9d7e36c6b1edfdc1e474043e48c8e37d9b9da47",
+      "size": 682,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_atlas.py",
+      "sha256": "160dbbeb4a3454fad151963594c7b8b7184ad682246a87989b380656753b06a3",
+      "size": 448,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_013_ux.py",
+      "sha256": "5bfe956933666e2888ddc28cfd21782de27ce115203c6f679e369ec5735b5dbc",
+      "size": 994,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_014_final.py",
+      "sha256": "0de66f570581849fe01424099426008708c19bc68cef7c551debca5e36143107",
+      "size": 1250,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_014_ux.py",
+      "sha256": "5d437853920d28fadaaa73d8aac62c8779ca3449e89fc6ef6362d1e11d0a0db3",
+      "size": 1037,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_015_kpi_trends.py",
+      "sha256": "6d310b3e4fc98a142050b8a3b0613d69fe6d9f9fc0e9e421156e91e8269f6c41",
+      "size": 1053,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_export.py",
+      "sha256": "228727b5cf1ca03aac6d9f9db4f6f0c38f2fe1cba19d7efd7eb019a6c5851b9f",
+      "size": 542,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_live_bundle.py",
+      "sha256": "5f23bd67051a2fdf2d9aeefe273b1b69691cf412fe1669a8adf74e87a10b988e",
+      "size": 510,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_discovery.py",
+      "sha256": "5e3da8842752b32ae3bc84b6f785a50602721e94b8b66b5bfe068a2c49502a26",
+      "size": 3328,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_discovery_cache.py",
+      "sha256": "30741c0945e571f43b6417d53080ddc6da9f2eccbb379b036bf847047a2156d5",
+      "size": 1761,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_downloader.py",
+      "sha256": "89f6a07a15a56ca5c3e7f7e2d4d9ee1bafdbde37c5ebdf5624000c4e9e2e0113",
+      "size": 1213,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_feature_dependencies.py",
+      "sha256": "aed81eaa88ee5890ee7883d4970cf9542bb4bd1a1d5fedfffeb9e9e38349cd83",
+      "size": 1213,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_github_publication_015.py",
+      "sha256": "153c7300576a0a195af6919103c48d4b57121c5221c597f382e94e925347bec2",
+      "size": 1142,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_parser.py",
+      "sha256": "781a950f646fce8eb84c58cc6cd57fa39cf25bd8ac8fccbde2d1f55ef6dd6494",
+      "size": 151,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_pipeline_progress_init.py",
+      "sha256": "9f0669f8717144b2b3316476a73b8045de919e0748922adf11933b99dcf4dde3",
+      "size": 341,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_qa.py",
+      "sha256": "a1182399e535029046a4399412069b09a8bee859204bc866f09d04144d30e24e",
+      "size": 124,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_resume_and_live_html.py",
+      "sha256": "69ad6de237fc98146fe1362d52bd39c73aa7e33eec691f7389a6e1eddccaf7de",
+      "size": 715,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_risk_index_013.py",
+      "sha256": "7796cae5e5b421ca3881fcab83f19d0a83f62d021b41b0f95c77b9ec95cc735b",
+      "size": 973,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_risk_index_014.py",
+      "sha256": "7796cae5e5b421ca3881fcab83f19d0a83f62d021b41b0f95c77b9ec95cc735b",
+      "size": 973,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_utils.py",
+      "sha256": "72036ecbf3ee600d9cf3da3a76542ab3e1f1324fcc65c55f2a4300805e4f45e3",
+      "size": 172,
+      "kind": "code"
+    }
+  ],
+  "symbols": [
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_sha",
+      "kind": "function",
+      "name": "_sha",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 12
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_rel",
+      "kind": "function",
+      "name": "_rel",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_project_files",
+      "kind": "function",
+      "name": "_project_files",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_module_from_path",
+      "kind": "function",
+      "name": "_module_from_path",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 31
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_python_nodes_edges",
+      "kind": "function",
+      "name": "_python_nodes_edges",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_sql_tables",
+      "kind": "function",
+      "name": "_sql_tables",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 71
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_lineage",
+      "kind": "function",
+      "name": "_lineage",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 79
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_db_state",
+      "kind": "function",
+      "name": "_db_state",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 113
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_write_atlas_db",
+      "kind": "function",
+      "name": "_write_atlas_db",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 120
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_validate",
+      "kind": "function",
+      "name": "_validate",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 133
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_handoff_members",
+      "kind": "function",
+      "name": "_handoff_members",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 143
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_create_handoff",
+      "kind": "function",
+      "name": "_create_handoff",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 165
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:build_atlas",
+      "kind": "function",
+      "name": "build_atlas",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 178
+    },
+    {
+      "id": "function:src/sepsrisk/config.py:project_root",
+      "kind": "function",
+      "name": "project_root",
+      "path": "src/sepsrisk/config.py",
+      "lineno": 3
+    },
+    {
+      "id": "function:src/sepsrisk/config.py:load_yaml",
+      "kind": "function",
+      "name": "load_yaml",
+      "path": "src/sepsrisk/config.py",
+      "lineno": 8
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:connect",
+      "kind": "function",
+      "name": "connect",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 10
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:init_db",
+      "kind": "function",
+      "name": "init_db",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:db_path",
+      "kind": "function",
+      "name": "db_path",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:persistent_db_path",
+      "kind": "function",
+      "name": "persistent_db_path",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 15
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:runtime_db_path",
+      "kind": "function",
+      "name": "runtime_db_path",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:checkpoint_db",
+      "kind": "function",
+      "name": "checkpoint_db",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 17
+    },
+    {
+      "id": "class:src/sepsrisk/features/engine.py:FeatureEvaluationError",
+      "kind": "class",
+      "name": "FeatureEvaluationError",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 8
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:comp",
+      "kind": "function",
+      "name": "comp",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 12
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:_replace_table",
+      "kind": "function",
+      "name": "_replace_table",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 23
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:_evaluate_features",
+      "kind": "function",
+      "name": "_evaluate_features",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 33
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:build_features",
+      "kind": "function",
+      "name": "build_features",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 88
+    },
+    {
+      "id": "function:src/sepsrisk/inference/signals.py:resolve_focus_entity",
+      "kind": "function",
+      "name": "resolve_focus_entity",
+      "path": "src/sepsrisk/inference/signals.py",
+      "lineno": 10
+    },
+    {
+      "id": "function:src/sepsrisk/inference/signals.py:build_signals",
+      "kind": "function",
+      "name": "build_signals",
+      "path": "src/sepsrisk/inference/signals.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:readiness",
+      "kind": "function",
+      "name": "readiness",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:_panel",
+      "kind": "function",
+      "name": "_panel",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 13
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:fit_if_ready",
+      "kind": "function",
+      "name": "fit_if_ready",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 17
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:record_readiness",
+      "kind": "function",
+      "name": "record_readiness",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 39
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:_content_type",
+      "kind": "function",
+      "name": "_content_type",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 19
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:_suffix",
+      "kind": "function",
+      "name": "_suffix",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 23
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:_looks_like_html",
+      "kind": "function",
+      "name": "_looks_like_html",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:download",
+      "kind": "function",
+      "name": "download",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 41
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:_normalize_chunk",
+      "kind": "function",
+      "name": "_normalize_chunk",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 7
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:stage_eeff",
+      "kind": "function",
+      "name": "stage_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 31
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:merge_staged_eeff",
+      "kind": "function",
+      "name": "merge_staged_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 67
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:normalize_eeff",
+      "kind": "function",
+      "name": "normalize_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 117
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:upsert_eeff",
+      "kind": "function",
+      "name": "upsert_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 129
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:extract_or_list",
+      "kind": "function",
+      "name": "extract_or_list",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:_detect_text",
+      "kind": "function",
+      "name": "_detect_text",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:estimate_rows",
+      "kind": "function",
+      "name": "estimate_rows",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 33
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:iter_table",
+      "kind": "function",
+      "name": "iter_table",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 45
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:read_table",
+      "kind": "function",
+      "name": "read_table",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 55
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:match_columns",
+      "kind": "function",
+      "name": "match_columns",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 62
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:parse_balance",
+      "kind": "function",
+      "name": "parse_balance",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 72
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_write_state",
+      "kind": "function",
+      "name": "_write_state",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 22
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_source_year",
+      "kind": "function",
+      "name": "_source_year",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 25
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_resume_skip_completed",
+      "kind": "function",
+      "name": "_resume_skip_completed",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 28
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_needs_full_discovery",
+      "kind": "function",
+      "name": "_needs_full_discovery",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_discover_cached_items",
+      "kind": "function",
+      "name": "_discover_cached_items",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 46
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_write_load_status",
+      "kind": "function",
+      "name": "_write_load_status",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 64
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_refresh_dashboard",
+      "kind": "function",
+      "name": "_refresh_dashboard",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 78
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:run",
+      "kind": "function",
+      "name": "run",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 85
+    },
+    {
+      "id": "class:src/sepsrisk/progress.py:_NullBar",
+      "kind": "class",
+      "name": "_NullBar",
+      "path": "src/sepsrisk/progress.py",
+      "lineno": 13
+    },
+    {
+      "id": "class:src/sepsrisk/progress.py:ProgressConfig",
+      "kind": "class",
+      "name": "ProgressConfig",
+      "path": "src/sepsrisk/progress.py",
+      "lineno": 22
+    },
+    {
+      "id": "class:src/sepsrisk/progress.py:PipelineProgress",
+      "kind": "class",
+      "name": "PipelineProgress",
+      "path": "src/sepsrisk/progress.py",
+      "lineno": 29
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_cfg",
+      "kind": "function",
+      "name": "_cfg",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_is_excluded",
+      "kind": "function",
+      "name": "_is_excluded",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:collect_publish_files",
+      "kind": "function",
+      "name": "collect_publish_files",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 30
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:preflight",
+      "kind": "function",
+      "name": "preflight",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 39
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_run",
+      "kind": "function",
+      "name": "_run",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 51
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_token",
+      "kind": "function",
+      "name": "_token",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 54
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_askpass",
+      "kind": "function",
+      "name": "_askpass",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 63
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:publish_project",
+      "kind": "function",
+      "name": "publish_project",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 70
+    },
+    {
+      "id": "function:src/sepsrisk/qa/core.py:qa_eeff",
+      "kind": "function",
+      "name": "qa_eeff",
+      "path": "src/sepsrisk/qa/core.py",
+      "lineno": 1
+    },
+    {
+      "id": "function:src/sepsrisk/qa/core.py:critical",
+      "kind": "function",
+      "name": "critical",
+      "path": "src/sepsrisk/qa/core.py",
+      "lineno": 6
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:safe",
+      "kind": "function",
+      "name": "safe",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 12
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_records",
+      "kind": "function",
+      "name": "_records",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_atomic_write",
+      "kind": "function",
+      "name": "_atomic_write",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 25
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_percentiles",
+      "kind": "function",
+      "name": "_percentiles",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 42
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_benchmarks",
+      "kind": "function",
+      "name": "_risk_benchmarks",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 55
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_index_frame",
+      "kind": "function",
+      "name": "_risk_index_frame",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 64
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_payload_for_entity",
+      "kind": "function",
+      "name": "_risk_payload_for_entity",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 94
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_latest_distributions",
+      "kind": "function",
+      "name": "_latest_distributions",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 129
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_read_load_status",
+      "kind": "function",
+      "name": "_read_load_status",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 142
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:rebuild_index",
+      "kind": "function",
+      "name": "rebuild_index",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 148
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:export_dashboard",
+      "kind": "function",
+      "name": "export_dashboard",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 164
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:_page_url",
+      "kind": "function",
+      "name": "_page_url",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:_is_direct_download_url",
+      "kind": "function",
+      "name": "_is_direct_download_url",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 13
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:_fetch_catalog_page",
+      "kind": "function",
+      "name": "_fetch_catalog_page",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:discover_source_items",
+      "kind": "function",
+      "name": "discover_source_items",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 38
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:resolve_download",
+      "kind": "function",
+      "name": "resolve_download",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 118
+    },
+    {
+      "id": "function:src/sepsrisk/storage/analytics.py:_root",
+      "kind": "function",
+      "name": "_root",
+      "path": "src/sepsrisk/storage/analytics.py",
+      "lineno": 7
+    },
+    {
+      "id": "function:src/sepsrisk/storage/analytics.py:query_df",
+      "kind": "function",
+      "name": "query_df",
+      "path": "src/sepsrisk/storage/analytics.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/storage/analytics.py:open_analytics",
+      "kind": "function",
+      "name": "open_analytics",
+      "path": "src/sepsrisk/storage/analytics.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_root",
+      "kind": "function",
+      "name": "_root",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:parquet_root",
+      "kind": "function",
+      "name": "parquet_root",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 13
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:eeff_root",
+      "kind": "function",
+      "name": "eeff_root",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:partition_path",
+      "kind": "function",
+      "name": "partition_path",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 19
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:eeff_files",
+      "kind": "function",
+      "name": "eeff_files",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 22
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:has_eeff",
+      "kind": "function",
+      "name": "has_eeff",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 24
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_partition_fingerprint",
+      "kind": "function",
+      "name": "_partition_fingerprint",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 27
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_atomic_parquet",
+      "kind": "function",
+      "name": "_atomic_parquet",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_read_parquet",
+      "kind": "function",
+      "name": "_read_parquet",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 44
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_month_key",
+      "kind": "function",
+      "name": "_month_key",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 49
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_dedupe",
+      "kind": "function",
+      "name": "_dedupe",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 53
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:ingest_eeff_files",
+      "kind": "function",
+      "name": "ingest_eeff_files",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 58
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:mark_source",
+      "kind": "function",
+      "name": "mark_source",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 107
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:source_record",
+      "kind": "function",
+      "name": "source_record",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 114
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:source_sha_seen",
+      "kind": "function",
+      "name": "source_sha_seen",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 116
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:storage_summary",
+      "kind": "function",
+      "name": "storage_summary",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 119
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:legacy_sqlite_path",
+      "kind": "function",
+      "name": "legacy_sqlite_path",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 126
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:migrate_legacy_sqlite",
+      "kind": "function",
+      "name": "migrate_legacy_sqlite",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 132
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:_root",
+      "kind": "function",
+      "name": "_root",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 7
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:state_dir",
+      "kind": "function",
+      "name": "state_dir",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:_atomic_json",
+      "kind": "function",
+      "name": "_atomic_json",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:load_json",
+      "kind": "function",
+      "name": "load_json",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 23
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:save_json",
+      "kind": "function",
+      "name": "save_json",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 30
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:source_catalog",
+      "kind": "function",
+      "name": "source_catalog",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 34
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:save_source_catalog",
+      "kind": "function",
+      "name": "save_source_catalog",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 38
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:ingestion_manifest",
+      "kind": "function",
+      "name": "ingestion_manifest",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 44
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:save_ingestion_manifest",
+      "kind": "function",
+      "name": "save_ingestion_manifest",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 48
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:app_meta",
+      "kind": "function",
+      "name": "app_meta",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 52
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:meta_get",
+      "kind": "function",
+      "name": "meta_get",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 56
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:meta_set",
+      "kind": "function",
+      "name": "meta_set",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 60
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:sha256_file",
+      "kind": "function",
+      "name": "sha256_file",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:sha256_text",
+      "kind": "function",
+      "name": "sha256_text",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:utcnow",
+      "kind": "function",
+      "name": "utcnow",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 10
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:norm_text",
+      "kind": "function",
+      "name": "norm_text",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:ensure_clean_dir",
+      "kind": "function",
+      "name": "ensure_clean_dir",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:tests/conftest.py:project_root",
+      "kind": "function",
+      "name": "project_root",
+      "path": "tests/conftest.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_academic_disclaimer.py:test_academic_disclaimer_is_configured_and_visible",
+      "kind": "function",
+      "name": "test_academic_disclaimer_is_configured_and_visible",
+      "path": "tests/test_academic_disclaimer.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_atlas.py:test_atlas_handoff",
+      "kind": "function",
+      "name": "test_atlas_handoff",
+      "path": "tests/test_atlas.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_013_ux.py:test_013_ux_contract",
+      "kind": "function",
+      "name": "test_013_ux_contract",
+      "path": "tests/test_dashboard_013_ux.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_013_ux.py:test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "kind": "function",
+      "name": "test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "path": "tests/test_dashboard_013_ux.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:tests/test_dashboard_014_final.py:test_014_mathjax_and_methodology_modal",
+      "kind": "function",
+      "name": "test_014_mathjax_and_methodology_modal",
+      "path": "tests/test_dashboard_014_final.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_014_final.py:test_014_static_and_risk_client_fallback",
+      "kind": "function",
+      "name": "test_014_static_and_risk_client_fallback",
+      "path": "tests/test_dashboard_014_final.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:tests/test_dashboard_014_final.py:test_014_main_metric_title_is_dynamic",
+      "kind": "function",
+      "name": "test_014_main_metric_title_is_dynamic",
+      "path": "tests/test_dashboard_014_final.py",
+      "lineno": 25
+    },
+    {
+      "id": "function:tests/test_dashboard_014_ux.py:test_014_ux_contract",
+      "kind": "function",
+      "name": "test_014_ux_contract",
+      "path": "tests/test_dashboard_014_ux.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_014_ux.py:test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "kind": "function",
+      "name": "test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "path": "tests/test_dashboard_014_ux.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:tests/test_dashboard_015_kpi_trends.py:test_kpi_trend_slots_and_logic_exist",
+      "kind": "function",
+      "name": "test_kpi_trend_slots_and_logic_exist",
+      "path": "tests/test_dashboard_015_kpi_trends.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_015_kpi_trends.py:test_semantic_directions_are_encoded",
+      "kind": "function",
+      "name": "test_semantic_directions_are_encoded",
+      "path": "tests/test_dashboard_015_kpi_trends.py",
+      "lineno": 15
+    },
+    {
+      "id": "function:tests/test_dashboard_export.py:test_empty_dashboard_exports_index_files",
+      "kind": "function",
+      "name": "test_empty_dashboard_exports_index_files",
+      "path": "tests/test_dashboard_export.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_live_bundle.py:test_app_uses_live_bundle_and_is_static",
+      "kind": "function",
+      "name": "test_app_uses_live_bundle_and_is_static",
+      "path": "tests/test_dashboard_live_bundle.py",
+      "lineno": 3
+    },
+    {
+      "id": "class:tests/test_discovery.py:_Resp",
+      "kind": "class",
+      "name": "_Resp",
+      "path": "tests/test_discovery.py",
+      "lineno": 7
+    },
+    {
+      "id": "class:tests/test_discovery.py:_Session",
+      "kind": "class",
+      "name": "_Session",
+      "path": "tests/test_discovery.py",
+      "lineno": 17
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_config_regex_matches_years_and_anteriores",
+      "kind": "function",
+      "name": "test_config_regex_matches_years_and_anteriores",
+      "path": "tests/test_discovery.py",
+      "lineno": 34
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_discovery_does_not_stop_on_first_empty_page",
+      "kind": "function",
+      "name": "test_discovery_does_not_stop_on_first_empty_page",
+      "path": "tests/test_discovery.py",
+      "lineno": 42
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_resolve_download_prefers_explicit_sdm_over_navigation",
+      "kind": "function",
+      "name": "test_resolve_download_prefers_explicit_sdm_over_navigation",
+      "path": "tests/test_discovery.py",
+      "lineno": 50
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_discovery_page_limit_is_respected",
+      "kind": "function",
+      "name": "test_discovery_page_limit_is_respected",
+      "path": "tests/test_discovery.py",
+      "lineno": 66
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_parallel_discovery_finds_same_item",
+      "kind": "function",
+      "name": "test_parallel_discovery_finds_same_item",
+      "path": "tests/test_discovery.py",
+      "lineno": 74
+    },
+    {
+      "id": "function:tests/test_discovery_cache.py:test_cache_full_once_then_incremental",
+      "kind": "function",
+      "name": "test_cache_full_once_then_incremental",
+      "path": "tests/test_discovery_cache.py",
+      "lineno": 5
+    },
+    {
+      "id": "class:tests/test_downloader.py:R",
+      "kind": "class",
+      "name": "R",
+      "path": "tests/test_downloader.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_downloader.py:test_downloader_rejects_html",
+      "kind": "function",
+      "name": "test_downloader_rejects_html",
+      "path": "tests/test_downloader.py",
+      "lineno": 15
+    },
+    {
+      "id": "function:tests/test_downloader.py:test_downloader_accepts_zip_payload",
+      "kind": "function",
+      "name": "test_downloader_accepts_zip_payload",
+      "path": "tests/test_downloader.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:tests/test_feature_dependencies.py:_base",
+      "kind": "function",
+      "name": "_base",
+      "path": "tests/test_feature_dependencies.py",
+      "lineno": 6
+    },
+    {
+      "id": "function:tests/test_feature_dependencies.py:test_derived_feature_can_feed_later_feature",
+      "kind": "function",
+      "name": "test_derived_feature_can_feed_later_feature",
+      "path": "tests/test_feature_dependencies.py",
+      "lineno": 17
+    },
+    {
+      "id": "function:tests/test_feature_dependencies.py:test_broken_feature_is_not_silently_skipped",
+      "kind": "function",
+      "name": "test_broken_feature_is_not_silently_skipped",
+      "path": "tests/test_feature_dependencies.py",
+      "lineno": 28
+    },
+    {
+      "id": "function:tests/test_github_publication_015.py:test_github_config_and_gitignore",
+      "kind": "function",
+      "name": "test_github_config_and_gitignore",
+      "path": "tests/test_github_publication_015.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_github_publication_015.py:test_preflight_excludes_operational_data",
+      "kind": "function",
+      "name": "test_preflight_excludes_operational_data",
+      "path": "tests/test_github_publication_015.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:tests/test_parser.py:test_balance",
+      "kind": "function",
+      "name": "test_balance",
+      "path": "tests/test_parser.py",
+      "lineno": 2
+    },
+    {
+      "id": "function:tests/test_pipeline_progress_init.py:test_pipeline_progress_accepts_project_progress_cfg",
+      "kind": "function",
+      "name": "test_pipeline_progress_accepts_project_progress_cfg",
+      "path": "tests/test_pipeline_progress_init.py",
+      "lineno": 3
+    },
+    {
+      "id": "function:tests/test_qa.py:test_empty",
+      "kind": "function",
+      "name": "test_empty",
+      "path": "tests/test_qa.py",
+      "lineno": 3
+    },
+    {
+      "id": "function:tests/test_resume_and_live_html.py:test_resume_skips_completed_closed_year",
+      "kind": "function",
+      "name": "test_resume_skips_completed_closed_year",
+      "path": "tests/test_resume_and_live_html.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_risk_index_013.py:test_relative_risk_index_is_bounded_and_has_contributors",
+      "kind": "function",
+      "name": "test_relative_risk_index_is_bounded_and_has_contributors",
+      "path": "tests/test_risk_index_013.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_risk_index_014.py:test_relative_risk_index_is_bounded_and_has_contributors",
+      "kind": "function",
+      "name": "test_relative_risk_index_is_bounded_and_has_contributors",
+      "path": "tests/test_risk_index_014.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_utils.py:test_norm",
+      "kind": "function",
+      "name": "test_norm",
+      "path": "tests/test_utils.py",
+      "lineno": 2
+    },
+    {
+      "id": "function:tests/test_utils.py:test_sha",
+      "kind": "function",
+      "name": "test_sha",
+      "path": "tests/test_utils.py",
+      "lineno": 3
+    }
+  ]
+}

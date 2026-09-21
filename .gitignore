@@ -1,0 +1,37 @@
+# Datos / almacenamiento operativo
+data/
+*.parquet
+*.sqlite
+*.duckdb
+*.db
+
+# Temporales y caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.tmp
+*.log
+
+# Handoff y snapshots binarios de Atlas
+atlas/handoff/
+atlas/snapshots/
+
+# Salidas exploratorias de jobs
+notebooks/jobs/output/
+
+# Secretos / credenciales
+.env
+.env.*
+*.pem
+*.key
+*token*
+!config/github.yaml
+
+# Empaquetados locales
+*.zip
+
+# Datos generados del dashboard (el shell sí se versiona)
+githubpage/data/*
+!githubpage/data/.gitkeep

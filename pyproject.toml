@@ -1,0 +1,10 @@
+[build-system]
+requires=["setuptools>=68","wheel"]
+build-backend="setuptools.build_meta"
+[project]
+name="seps-segmento1-risk"
+version = "0.15.0"
+requires-python=">=3.10"
+dependencies=["pandas>=2.1","numpy>=1.26","PyYAML>=6.0","requests>=2.31","beautifulsoup4>=4.12","openpyxl>=3.1","scikit-learn>=1.4","statsmodels>=0.14","lifelines>=0.30","ruptures>=1.1.9","pytest>=8.0","tqdm>=4.66","duckdb>=1.1","pyarrow>=17.0"]
+[tool.setuptools.packages.find]
+where=["src"]

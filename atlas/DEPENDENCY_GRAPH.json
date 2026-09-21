@@ -1,0 +1,3181 @@
+{
+  "generated_at": "2026-09-21T17:56:25.915025+00:00",
+  "nodes": [
+    {
+      "id": "file:.github/workflows/pages.yml",
+      "kind": "file",
+      "path": ".github/workflows/pages.yml",
+      "label": ".github/workflows/pages.yml",
+      "sha256": "2d11a57d6da866707eb9fb314ad88f6513d4054c4ae387d81370ebc457b4df76"
+    },
+    {
+      "id": "file:CHANGELOG.md",
+      "kind": "file",
+      "path": "CHANGELOG.md",
+      "label": "CHANGELOG.md",
+      "sha256": "b60c771b215447ba03c5baeda28b8fe34dae82a386bbaaf1143480728999e703"
+    },
+    {
+      "id": "file:CONTRATO.md",
+      "kind": "file",
+      "path": "CONTRATO.md",
+      "label": "CONTRATO.md",
+      "sha256": "2b72cab13956f21dac9b8521a44c98438feb73f67e8e23ce46f584aec9f852e4"
+    },
+    {
+      "id": "file:MASTER_SEPS.ipynb",
+      "kind": "file",
+      "path": "MASTER_SEPS.ipynb",
+      "label": "MASTER_SEPS.ipynb",
+      "sha256": "3dcd48a7feb2ab64373383162fd302a7487f022ddd7dc671c93ffef6e18d3a97"
+    },
+    {
+      "id": "file:PROJECT_TREE.txt",
+      "kind": "file",
+      "path": "PROJECT_TREE.txt",
+      "label": "PROJECT_TREE.txt",
+      "sha256": "9e8d2de277908a69148094a1864f7c8b03d468aa47c7c99c3719a6fb1990c8f5"
+    },
+    {
+      "id": "file:README.md",
+      "kind": "file",
+      "path": "README.md",
+      "label": "README.md",
+      "sha256": "c1a0b0c0f7056b5a838bb4a034e19b8723dbfa9270f2840b0ca151225a87c765"
+    },
+    {
+      "id": "file:atlas/README.md",
+      "kind": "file",
+      "path": "atlas/README.md",
+      "label": "atlas/README.md",
+      "sha256": "4f86c2d842c8ad944b136d2a50da164a6c00a24d88d3cdab73fb0d4cbf01da14"
+    },
+    {
+      "id": "file:config/events.yaml",
+      "kind": "file",
+      "path": "config/events.yaml",
+      "label": "config/events.yaml",
+      "sha256": "5e0385a94d45f3d311a92e8109fdddf99fa57f1c14cbc28567ca9e9542ed5ea9"
+    },
+    {
+      "id": "file:config/features.yaml",
+      "kind": "file",
+      "path": "config/features.yaml",
+      "label": "config/features.yaml",
+      "sha256": "27eb50eb68381c94ade6524280d35d32b5ffb5ff40c01601f598b08402bb1c30"
+    },
+    {
+      "id": "file:config/github.yaml",
+      "kind": "file",
+      "path": "config/github.yaml",
+      "label": "config/github.yaml",
+      "sha256": "6d70569ed993aebd52bbbb6c5df2945e0ed6363e501e375aedc9ef4e016b7b08"
+    },
+    {
+      "id": "file:config/project.yaml",
+      "kind": "file",
+      "path": "config/project.yaml",
+      "label": "config/project.yaml",
+      "sha256": "bd33215a063ae39c708c6c35ab0ce3f2768536bd2b20d6575a85a53d29dced0a"
+    },
+    {
+      "id": "file:config/sources.yaml",
+      "kind": "file",
+      "path": "config/sources.yaml",
+      "label": "config/sources.yaml",
+      "sha256": "c8fc9e9ba7f6eaa1c691804483b592210d69f28af68f26ce2cce8f0dc0e2fd7c"
+    },
+    {
+      "id": "file:contracts/01_fuentes_seps.md",
+      "kind": "file",
+      "path": "contracts/01_fuentes_seps.md",
+      "label": "contracts/01_fuentes_seps.md",
+      "sha256": "8ddaf63fe6507ae05dc5ca49c141f505d0c25fda0d2242c580fd4b03f7c6e8f8"
+    },
+    {
+      "id": "file:contracts/02_modelo_datos.md",
+      "kind": "file",
+      "path": "contracts/02_modelo_datos.md",
+      "label": "contracts/02_modelo_datos.md",
+      "sha256": "66ea7ca3d055448152baead324887284655ccf5e381a8a35aee365ec9e335b1d"
+    },
+    {
+      "id": "file:contracts/03_ingestion.md",
+      "kind": "file",
+      "path": "contracts/03_ingestion.md",
+      "label": "contracts/03_ingestion.md",
+      "sha256": "85f44a2c8664e3a91d52b49dbe1c708b29cd3fd86e5a1067e3e37505555f5af8"
+    },
+    {
+      "id": "file:contracts/04_calidad_datos.md",
+      "kind": "file",
+      "path": "contracts/04_calidad_datos.md",
+      "label": "contracts/04_calidad_datos.md",
+      "sha256": "854f5a70616ac63dc8febcf3cccc5f6feced47a5a92b711ed17a5f52262490d0"
+    },
+    {
+      "id": "file:contracts/05_indicadores_financieros.md",
+      "kind": "file",
+      "path": "contracts/05_indicadores_financieros.md",
+      "label": "contracts/05_indicadores_financieros.md",
+      "sha256": "e5ed10507dc5b04c597faaaa9e2b8e09c329fcdd8cff5a4fa5b1b8d2d3cb2fcb"
+    },
+    {
+      "id": "file:contracts/06_eventos_default.md",
+      "kind": "file",
+      "path": "contracts/06_eventos_default.md",
+      "label": "contracts/06_eventos_default.md",
+      "sha256": "87f40daf4ee9e35b5690286185bcfa43c7438568783af69ec2a2d058a1ee22ce"
+    },
+    {
+      "id": "file:contracts/07_publicacion_web.md",
+      "kind": "file",
+      "path": "contracts/07_publicacion_web.md",
+      "label": "contracts/07_publicacion_web.md",
+      "sha256": "3582729b95d102da858ec0d4360463884f2e6b86e2fea7aaa5467a434af67258"
+    },
+    {
+      "id": "file:contracts/08_atlas_continuidad.md",
+      "kind": "file",
+      "path": "contracts/08_atlas_continuidad.md",
+      "label": "contracts/08_atlas_continuidad.md",
+      "sha256": "2a27c454fa6bf68ab178c36b3a7f1df37c6fc4aa187c1079737a02828afea1dd"
+    },
+    {
+      "id": "file:contracts/09_publicacion_github.md",
+      "kind": "file",
+      "path": "contracts/09_publicacion_github.md",
+      "label": "contracts/09_publicacion_github.md",
+      "sha256": "a0db6578ad26e57605f1c631f8956e0fa8adb1a555c475ea4b731b07725eec42"
+    },
+    {
+      "id": "file:githubpage/assets/app.css",
+      "kind": "file",
+      "path": "githubpage/assets/app.css",
+      "label": "githubpage/assets/app.css",
+      "sha256": "15c59a03631468856eda41f454e53e4e2e8615ec603187c4c5a3afb5e21f04f2"
+    },
+    {
+      "id": "file:githubpage/assets/app.js",
+      "kind": "file",
+      "path": "githubpage/assets/app.js",
+      "label": "githubpage/assets/app.js",
+      "sha256": "c98a3ab7907e56665698493da4d2a4627114ad1d767ddd4432a2b632892aa94a"
+    },
+    {
+      "id": "file:githubpage/index.html",
+      "kind": "file",
+      "path": "githubpage/index.html",
+      "label": "githubpage/index.html",
+      "sha256": "231ede5e4a6facec621e7c73a60a8154a93bae7d12ca9d1a33327bdd4855d0b9"
+    },
+    {
+      "id": "file:notebooks/001_inspeccion_cruda_base_y_morosidad.ipynb",
+      "kind": "file",
+      "path": "notebooks/001_inspeccion_cruda_base_y_morosidad.ipynb",
+      "label": "notebooks/001_inspeccion_cruda_base_y_morosidad.ipynb",
+      "sha256": "68529c81a4b0e92f6936a9e83b5f012a5be153749dec8f0374589ee177f85ebb"
+    },
+    {
+      "id": "file:notebooks/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "kind": "file",
+      "path": "notebooks/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "label": "notebooks/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "sha256": "6aeeb2d191aa8f1b46c2a3fc3c8b11c2d86bfc9952f2ccb5a1b6b2f585b80e2a"
+    },
+    {
+      "id": "file:notebooks/README.md",
+      "kind": "file",
+      "path": "notebooks/README.md",
+      "label": "notebooks/README.md",
+      "sha256": "0fd90c5d5cf976d57fc1f5c18b1d7f9852f00e63311c612754bfd073a58f8620"
+    },
+    {
+      "id": "file:notebooks/jobs/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "kind": "file",
+      "path": "notebooks/jobs/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "label": "notebooks/jobs/002_inspeccion_cruda_base_y_morosidad.ipynb",
+      "sha256": "0397f2bdfdf38dac398eebbbe7059ab1d7ad5e795e3d8852b272674fdd25eee7"
+    },
+    {
+      "id": "file:notebooks/jobs/output/002_inspeccion_cruda/diagnostico.json",
+      "kind": "file",
+      "path": "notebooks/jobs/output/002_inspeccion_cruda/diagnostico.json",
+      "label": "notebooks/jobs/output/002_inspeccion_cruda/diagnostico.json",
+      "sha256": "c4b5b0c7cdea965d4ed897ff4b9b75b6f2f023aa3fa9213cf6b780b12df27c90"
+    },
+    {
+      "id": "file:pyproject.toml",
+      "kind": "file",
+      "path": "pyproject.toml",
+      "label": "pyproject.toml",
+      "sha256": "e5d67968a0de67a3aa180ede99af4cc8794ea2c4d76c70be01272d2ea4a04be7"
+    },
+    {
+      "id": "file:scripts/00_master.py",
+      "kind": "file",
+      "path": "scripts/00_master.py",
+      "label": "scripts/00_master.py",
+      "sha256": "8f11a55abfbd8efa003b411a93ec1154b6b116cdbb75e01c4651b931d717fa2a"
+    },
+    {
+      "id": "file:scripts/01_init_database.py",
+      "kind": "file",
+      "path": "scripts/01_init_database.py",
+      "label": "scripts/01_init_database.py",
+      "sha256": "c4815cdd635ac01aa24fba6552b0a260320861bbbafe30a45a1d2c951a1e7c0b"
+    },
+    {
+      "id": "file:scripts/10_run_qa.py",
+      "kind": "file",
+      "path": "scripts/10_run_qa.py",
+      "label": "scripts/10_run_qa.py",
+      "sha256": "e9b4830bb7e40a4eda9a42af3e52c40abe54ded181dae63f663eb44bc2c2ac1c"
+    },
+    {
+      "id": "file:scripts/20_build_features.py",
+      "kind": "file",
+      "path": "scripts/20_build_features.py",
+      "label": "scripts/20_build_features.py",
+      "sha256": "b52ac37e5eaea1ea2bd4621bccfdebee5ab163ccb279f628a31b5f925b925041"
+    },
+    {
+      "id": "file:scripts/30_build_signals.py",
+      "kind": "file",
+      "path": "scripts/30_build_signals.py",
+      "label": "scripts/30_build_signals.py",
+      "sha256": "5f4b440d2f4bf17f7375ebd0573a1c772ba5419570d7dad1e66eefda4dbe17d3"
+    },
+    {
+      "id": "file:scripts/31_import_events.py",
+      "kind": "file",
+      "path": "scripts/31_import_events.py",
+      "label": "scripts/31_import_events.py",
+      "sha256": "db78e82a417511ac5169d4297db0411744301d9f7e9f9efef42170601678553a"
+    },
+    {
+      "id": "file:scripts/80_export_dashboard.py",
+      "kind": "file",
+      "path": "scripts/80_export_dashboard.py",
+      "label": "scripts/80_export_dashboard.py",
+      "sha256": "ea61ade9f51d6aba6978c6b2e8a7768056939eaae70127042b0e98bf9da6a783"
+    },
+    {
+      "id": "file:scripts/90_build_atlas.py",
+      "kind": "file",
+      "path": "scripts/90_build_atlas.py",
+      "label": "scripts/90_build_atlas.py",
+      "sha256": "b139c3532f588b8e6f8bd190ceb8fd9554ff78238c0ddeff6c50631a2e385232"
+    },
+    {
+      "id": "file:scripts/95_publish_github.py",
+      "kind": "file",
+      "path": "scripts/95_publish_github.py",
+      "label": "scripts/95_publish_github.py",
+      "sha256": "6223430c1cb81f5049cbd42350684a982514d8892ec81d2143903f5398a9c44c"
+    },
+    {
+      "id": "file:sql/indexes.sql",
+      "kind": "file",
+      "path": "sql/indexes.sql",
+      "label": "sql/indexes.sql",
+      "sha256": "6465383511d3198522c31ffa4c2d4ef4f7b488f5601ede694d3268a144f17b43"
+    },
+    {
+      "id": "file:sql/schema.sql",
+      "kind": "file",
+      "path": "sql/schema.sql",
+      "label": "sql/schema.sql",
+      "sha256": "86f6b294685dda1a68ef45bffda7e454b65656058cdbade1637347f468e18134"
+    },
+    {
+      "id": "file:src/seps_segmento1_risk.egg-info/SOURCES.txt",
+      "kind": "file",
+      "path": "src/seps_segmento1_risk.egg-info/SOURCES.txt",
+      "label": "src/seps_segmento1_risk.egg-info/SOURCES.txt",
+      "sha256": "9802a459c9d17b25df16e0b90d10741373c31d344ee12daeff71fc7b535df122"
+    },
+    {
+      "id": "file:src/seps_segmento1_risk.egg-info/dependency_links.txt",
+      "kind": "file",
+      "path": "src/seps_segmento1_risk.egg-info/dependency_links.txt",
+      "label": "src/seps_segmento1_risk.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "id": "file:src/seps_segmento1_risk.egg-info/requires.txt",
+      "kind": "file",
+      "path": "src/seps_segmento1_risk.egg-info/requires.txt",
+      "label": "src/seps_segmento1_risk.egg-info/requires.txt",
+      "sha256": "4fa888c3b60483e5aaa6d74ba643331a5873819109ee9b1879872ec53e931ac8"
+    },
+    {
+      "id": "file:src/seps_segmento1_risk.egg-info/top_level.txt",
+      "kind": "file",
+      "path": "src/seps_segmento1_risk.egg-info/top_level.txt",
+      "label": "src/seps_segmento1_risk.egg-info/top_level.txt",
+      "sha256": "18a19ab343197e208f06a6ecdcd8f7f8836ea2478c96d2b1187cecfa73867ef4"
+    },
+    {
+      "id": "file:src/sepsrisk/__init__.py",
+      "kind": "file",
+      "path": "src/sepsrisk/__init__.py",
+      "label": "src/sepsrisk/__init__.py",
+      "sha256": "a9b8b5c4624c6173284e20617f9df9ce7eec99e075c84b49a5b1b4a1ea46fffc"
+    },
+    {
+      "id": "file:src/sepsrisk/atlas/build.py",
+      "kind": "file",
+      "path": "src/sepsrisk/atlas/build.py",
+      "label": "src/sepsrisk/atlas/build.py",
+      "sha256": "2ef4e21d9c258e27d718718679486623d1fc8eb0a64eef2f8104784083a27a63"
+    },
+    {
+      "id": "file:src/sepsrisk/config.py",
+      "kind": "file",
+      "path": "src/sepsrisk/config.py",
+      "label": "src/sepsrisk/config.py",
+      "sha256": "61149f57fd8ec84f738c1916c025a514df0bf2a30536b91a540bd200ee44666f"
+    },
+    {
+      "id": "file:src/sepsrisk/database.py",
+      "kind": "file",
+      "path": "src/sepsrisk/database.py",
+      "label": "src/sepsrisk/database.py",
+      "sha256": "95a7de6b90430ae805bf51a28e5714403181b35ce4bbe328db9ee6e331959f69"
+    },
+    {
+      "id": "file:src/sepsrisk/features/engine.py",
+      "kind": "file",
+      "path": "src/sepsrisk/features/engine.py",
+      "label": "src/sepsrisk/features/engine.py",
+      "sha256": "9aeeff3c93f3f056612746fb95387eca1c51659818f14f62c8af6c4be7cc3d95"
+    },
+    {
+      "id": "file:src/sepsrisk/inference/signals.py",
+      "kind": "file",
+      "path": "src/sepsrisk/inference/signals.py",
+      "label": "src/sepsrisk/inference/signals.py",
+      "sha256": "0d6a9bf4ed4a3313d113d8249a1608db4c0705c03f1bd72ccf9b49fdd8835c8f"
+    },
+    {
+      "id": "file:src/sepsrisk/inference/survival.py",
+      "kind": "file",
+      "path": "src/sepsrisk/inference/survival.py",
+      "label": "src/sepsrisk/inference/survival.py",
+      "sha256": "6a516f4b14d9b99e95ad78f23f4be4d7dd47d0e88c8b7920ea48bba229b3f405"
+    },
+    {
+      "id": "file:src/sepsrisk/ingestion/downloader.py",
+      "kind": "file",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "label": "src/sepsrisk/ingestion/downloader.py",
+      "sha256": "877aeedea771ac9289ec58e73fac4febc8f031eef5b95eff9c0cfc184838d565"
+    },
+    {
+      "id": "file:src/sepsrisk/ingestion/eeff.py",
+      "kind": "file",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "label": "src/sepsrisk/ingestion/eeff.py",
+      "sha256": "f344cd7c0d5a2e8570787498e33733c7356bd4229fd11b8fb13dbc9a7382ebc1"
+    },
+    {
+      "id": "file:src/sepsrisk/ingestion/parser.py",
+      "kind": "file",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "label": "src/sepsrisk/ingestion/parser.py",
+      "sha256": "bd171925ec52a6ea22897648f6810b62ff0e3d50aab08d57a200112e01595802"
+    },
+    {
+      "id": "file:src/sepsrisk/pipeline.py",
+      "kind": "file",
+      "path": "src/sepsrisk/pipeline.py",
+      "label": "src/sepsrisk/pipeline.py",
+      "sha256": "e98aaf27f2801341219117411c95d23d96d38d0b31d20b9c42dd6e643f0e256b"
+    },
+    {
+      "id": "file:src/sepsrisk/progress.py",
+      "kind": "file",
+      "path": "src/sepsrisk/progress.py",
+      "label": "src/sepsrisk/progress.py",
+      "sha256": "328de41d07f8b4896e9cf370945088b787dee58ff581b70a1ff7eb3a1daff593"
+    },
+    {
+      "id": "file:src/sepsrisk/publication/__init__.py",
+      "kind": "file",
+      "path": "src/sepsrisk/publication/__init__.py",
+      "label": "src/sepsrisk/publication/__init__.py",
+      "sha256": "871f79fc460bcac6ffe469d5549c51b8f9c0b4be8f4aa5d3194f500fcfbbdcb8"
+    },
+    {
+      "id": "file:src/sepsrisk/publication/github.py",
+      "kind": "file",
+      "path": "src/sepsrisk/publication/github.py",
+      "label": "src/sepsrisk/publication/github.py",
+      "sha256": "30c33a4cb0252f9f97263b886aa56b6b8ddebbf975d0609565128810f1368175"
+    },
+    {
+      "id": "file:src/sepsrisk/qa/core.py",
+      "kind": "file",
+      "path": "src/sepsrisk/qa/core.py",
+      "label": "src/sepsrisk/qa/core.py",
+      "sha256": "f063feae81d7c0aba719b19338a1f6f3a7d975e04d9caa96e9267c11d7624bf1"
+    },
+    {
+      "id": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "kind": "file",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "label": "src/sepsrisk/reporting/export_dashboard.py",
+      "sha256": "784be5199c143b6d5f965730b75e667fab9ef460eb2bd2d5846ad50b271bde87"
+    },
+    {
+      "id": "file:src/sepsrisk/reporting/index_template.html",
+      "kind": "file",
+      "path": "src/sepsrisk/reporting/index_template.html",
+      "label": "src/sepsrisk/reporting/index_template.html",
+      "sha256": "606f01aba6fc8bb79fa00338b673a11be31cca620373b748b8414c9362c19551"
+    },
+    {
+      "id": "file:src/sepsrisk/sources/discovery.py",
+      "kind": "file",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "label": "src/sepsrisk/sources/discovery.py",
+      "sha256": "8e487e6bce80ec1813cec9382344b21c535b5f22d9feaad2dc8215953037922b"
+    },
+    {
+      "id": "file:src/sepsrisk/storage/__init__.py",
+      "kind": "file",
+      "path": "src/sepsrisk/storage/__init__.py",
+      "label": "src/sepsrisk/storage/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "file:src/sepsrisk/storage/analytics.py",
+      "kind": "file",
+      "path": "src/sepsrisk/storage/analytics.py",
+      "label": "src/sepsrisk/storage/analytics.py",
+      "sha256": "0c014ebd9103b5b9bb90ebf44fd96574c053de664524e80782a19df821583db5"
+    },
+    {
+      "id": "file:src/sepsrisk/storage/parquet_store.py",
+      "kind": "file",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "label": "src/sepsrisk/storage/parquet_store.py",
+      "sha256": "580182a3033a7bb07697259bbd87daf4ccdd24dca7d5bd1dd4276cb4e4b93d87"
+    },
+    {
+      "id": "file:src/sepsrisk/storage/state.py",
+      "kind": "file",
+      "path": "src/sepsrisk/storage/state.py",
+      "label": "src/sepsrisk/storage/state.py",
+      "sha256": "72a004f779ba282bed8755fba23e369e584ecb6f2f676b23339929c2df9cbabd"
+    },
+    {
+      "id": "file:src/sepsrisk/utils.py",
+      "kind": "file",
+      "path": "src/sepsrisk/utils.py",
+      "label": "src/sepsrisk/utils.py",
+      "sha256": "85eeac4cb7d8f3dfef95333b96dbb7873c19dc269a6c00475a9031c49e3f1481"
+    },
+    {
+      "id": "file:tests/conftest.py",
+      "kind": "file",
+      "path": "tests/conftest.py",
+      "label": "tests/conftest.py",
+      "sha256": "3d3e3dc4b62d0e88c1dd094e7a8672c9ca05ed47bf11d71b109e965aa60846e4"
+    },
+    {
+      "id": "file:tests/test_academic_disclaimer.py",
+      "kind": "file",
+      "path": "tests/test_academic_disclaimer.py",
+      "label": "tests/test_academic_disclaimer.py",
+      "sha256": "2a12101efcd246dfd7750dc7e9d7e36c6b1edfdc1e474043e48c8e37d9b9da47"
+    },
+    {
+      "id": "file:tests/test_atlas.py",
+      "kind": "file",
+      "path": "tests/test_atlas.py",
+      "label": "tests/test_atlas.py",
+      "sha256": "160dbbeb4a3454fad151963594c7b8b7184ad682246a87989b380656753b06a3"
+    },
+    {
+      "id": "file:tests/test_dashboard_013_ux.py",
+      "kind": "file",
+      "path": "tests/test_dashboard_013_ux.py",
+      "label": "tests/test_dashboard_013_ux.py",
+      "sha256": "5bfe956933666e2888ddc28cfd21782de27ce115203c6f679e369ec5735b5dbc"
+    },
+    {
+      "id": "file:tests/test_dashboard_014_final.py",
+      "kind": "file",
+      "path": "tests/test_dashboard_014_final.py",
+      "label": "tests/test_dashboard_014_final.py",
+      "sha256": "0de66f570581849fe01424099426008708c19bc68cef7c551debca5e36143107"
+    },
+    {
+      "id": "file:tests/test_dashboard_014_ux.py",
+      "kind": "file",
+      "path": "tests/test_dashboard_014_ux.py",
+      "label": "tests/test_dashboard_014_ux.py",
+      "sha256": "5d437853920d28fadaaa73d8aac62c8779ca3449e89fc6ef6362d1e11d0a0db3"
+    },
+    {
+      "id": "file:tests/test_dashboard_015_kpi_trends.py",
+      "kind": "file",
+      "path": "tests/test_dashboard_015_kpi_trends.py",
+      "label": "tests/test_dashboard_015_kpi_trends.py",
+      "sha256": "6d310b3e4fc98a142050b8a3b0613d69fe6d9f9fc0e9e421156e91e8269f6c41"
+    },
+    {
+      "id": "file:tests/test_dashboard_export.py",
+      "kind": "file",
+      "path": "tests/test_dashboard_export.py",
+      "label": "tests/test_dashboard_export.py",
+      "sha256": "228727b5cf1ca03aac6d9f9db4f6f0c38f2fe1cba19d7efd7eb019a6c5851b9f"
+    },
+    {
+      "id": "file:tests/test_dashboard_live_bundle.py",
+      "kind": "file",
+      "path": "tests/test_dashboard_live_bundle.py",
+      "label": "tests/test_dashboard_live_bundle.py",
+      "sha256": "5f23bd67051a2fdf2d9aeefe273b1b69691cf412fe1669a8adf74e87a10b988e"
+    },
+    {
+      "id": "file:tests/test_discovery.py",
+      "kind": "file",
+      "path": "tests/test_discovery.py",
+      "label": "tests/test_discovery.py",
+      "sha256": "5e3da8842752b32ae3bc84b6f785a50602721e94b8b66b5bfe068a2c49502a26"
+    },
+    {
+      "id": "file:tests/test_discovery_cache.py",
+      "kind": "file",
+      "path": "tests/test_discovery_cache.py",
+      "label": "tests/test_discovery_cache.py",
+      "sha256": "30741c0945e571f43b6417d53080ddc6da9f2eccbb379b036bf847047a2156d5"
+    },
+    {
+      "id": "file:tests/test_downloader.py",
+      "kind": "file",
+      "path": "tests/test_downloader.py",
+      "label": "tests/test_downloader.py",
+      "sha256": "89f6a07a15a56ca5c3e7f7e2d4d9ee1bafdbde37c5ebdf5624000c4e9e2e0113"
+    },
+    {
+      "id": "file:tests/test_feature_dependencies.py",
+      "kind": "file",
+      "path": "tests/test_feature_dependencies.py",
+      "label": "tests/test_feature_dependencies.py",
+      "sha256": "aed81eaa88ee5890ee7883d4970cf9542bb4bd1a1d5fedfffeb9e9e38349cd83"
+    },
+    {
+      "id": "file:tests/test_github_publication_015.py",
+      "kind": "file",
+      "path": "tests/test_github_publication_015.py",
+      "label": "tests/test_github_publication_015.py",
+      "sha256": "153c7300576a0a195af6919103c48d4b57121c5221c597f382e94e925347bec2"
+    },
+    {
+      "id": "file:tests/test_parser.py",
+      "kind": "file",
+      "path": "tests/test_parser.py",
+      "label": "tests/test_parser.py",
+      "sha256": "781a950f646fce8eb84c58cc6cd57fa39cf25bd8ac8fccbde2d1f55ef6dd6494"
+    },
+    {
+      "id": "file:tests/test_pipeline_progress_init.py",
+      "kind": "file",
+      "path": "tests/test_pipeline_progress_init.py",
+      "label": "tests/test_pipeline_progress_init.py",
+      "sha256": "9f0669f8717144b2b3316476a73b8045de919e0748922adf11933b99dcf4dde3"
+    },
+    {
+      "id": "file:tests/test_qa.py",
+      "kind": "file",
+      "path": "tests/test_qa.py",
+      "label": "tests/test_qa.py",
+      "sha256": "a1182399e535029046a4399412069b09a8bee859204bc866f09d04144d30e24e"
+    },
+    {
+      "id": "file:tests/test_resume_and_live_html.py",
+      "kind": "file",
+      "path": "tests/test_resume_and_live_html.py",
+      "label": "tests/test_resume_and_live_html.py",
+      "sha256": "69ad6de237fc98146fe1362d52bd39c73aa7e33eec691f7389a6e1eddccaf7de"
+    },
+    {
+      "id": "file:tests/test_risk_index_013.py",
+      "kind": "file",
+      "path": "tests/test_risk_index_013.py",
+      "label": "tests/test_risk_index_013.py",
+      "sha256": "7796cae5e5b421ca3881fcab83f19d0a83f62d021b41b0f95c77b9ec95cc735b"
+    },
+    {
+      "id": "file:tests/test_risk_index_014.py",
+      "kind": "file",
+      "path": "tests/test_risk_index_014.py",
+      "label": "tests/test_risk_index_014.py",
+      "sha256": "7796cae5e5b421ca3881fcab83f19d0a83f62d021b41b0f95c77b9ec95cc735b"
+    },
+    {
+      "id": "file:tests/test_utils.py",
+      "kind": "file",
+      "path": "tests/test_utils.py",
+      "label": "tests/test_utils.py",
+      "sha256": "72036ecbf3ee600d9cf3da3a76542ab3e1f1324fcc65c55f2a4300805e4f45e3"
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_sha",
+      "kind": "function",
+      "name": "_sha",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 12
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_rel",
+      "kind": "function",
+      "name": "_rel",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_project_files",
+      "kind": "function",
+      "name": "_project_files",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_module_from_path",
+      "kind": "function",
+      "name": "_module_from_path",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 31
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_python_nodes_edges",
+      "kind": "function",
+      "name": "_python_nodes_edges",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_sql_tables",
+      "kind": "function",
+      "name": "_sql_tables",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 71
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_lineage",
+      "kind": "function",
+      "name": "_lineage",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 79
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_db_state",
+      "kind": "function",
+      "name": "_db_state",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 113
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_write_atlas_db",
+      "kind": "function",
+      "name": "_write_atlas_db",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 120
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_validate",
+      "kind": "function",
+      "name": "_validate",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 133
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_handoff_members",
+      "kind": "function",
+      "name": "_handoff_members",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 143
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:_create_handoff",
+      "kind": "function",
+      "name": "_create_handoff",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 165
+    },
+    {
+      "id": "function:src/sepsrisk/atlas/build.py:build_atlas",
+      "kind": "function",
+      "name": "build_atlas",
+      "path": "src/sepsrisk/atlas/build.py",
+      "lineno": 178
+    },
+    {
+      "id": "function:src/sepsrisk/config.py:project_root",
+      "kind": "function",
+      "name": "project_root",
+      "path": "src/sepsrisk/config.py",
+      "lineno": 3
+    },
+    {
+      "id": "function:src/sepsrisk/config.py:load_yaml",
+      "kind": "function",
+      "name": "load_yaml",
+      "path": "src/sepsrisk/config.py",
+      "lineno": 8
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:connect",
+      "kind": "function",
+      "name": "connect",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 10
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:init_db",
+      "kind": "function",
+      "name": "init_db",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:db_path",
+      "kind": "function",
+      "name": "db_path",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:persistent_db_path",
+      "kind": "function",
+      "name": "persistent_db_path",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 15
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:runtime_db_path",
+      "kind": "function",
+      "name": "runtime_db_path",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:src/sepsrisk/database.py:checkpoint_db",
+      "kind": "function",
+      "name": "checkpoint_db",
+      "path": "src/sepsrisk/database.py",
+      "lineno": 17
+    },
+    {
+      "id": "class:src/sepsrisk/features/engine.py:FeatureEvaluationError",
+      "kind": "class",
+      "name": "FeatureEvaluationError",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 8
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:comp",
+      "kind": "function",
+      "name": "comp",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 12
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:_replace_table",
+      "kind": "function",
+      "name": "_replace_table",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 23
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:_evaluate_features",
+      "kind": "function",
+      "name": "_evaluate_features",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 33
+    },
+    {
+      "id": "function:src/sepsrisk/features/engine.py:build_features",
+      "kind": "function",
+      "name": "build_features",
+      "path": "src/sepsrisk/features/engine.py",
+      "lineno": 88
+    },
+    {
+      "id": "function:src/sepsrisk/inference/signals.py:resolve_focus_entity",
+      "kind": "function",
+      "name": "resolve_focus_entity",
+      "path": "src/sepsrisk/inference/signals.py",
+      "lineno": 10
+    },
+    {
+      "id": "function:src/sepsrisk/inference/signals.py:build_signals",
+      "kind": "function",
+      "name": "build_signals",
+      "path": "src/sepsrisk/inference/signals.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:readiness",
+      "kind": "function",
+      "name": "readiness",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:_panel",
+      "kind": "function",
+      "name": "_panel",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 13
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:fit_if_ready",
+      "kind": "function",
+      "name": "fit_if_ready",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 17
+    },
+    {
+      "id": "function:src/sepsrisk/inference/survival.py:record_readiness",
+      "kind": "function",
+      "name": "record_readiness",
+      "path": "src/sepsrisk/inference/survival.py",
+      "lineno": 39
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:_content_type",
+      "kind": "function",
+      "name": "_content_type",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 19
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:_suffix",
+      "kind": "function",
+      "name": "_suffix",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 23
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:_looks_like_html",
+      "kind": "function",
+      "name": "_looks_like_html",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/downloader.py:download",
+      "kind": "function",
+      "name": "download",
+      "path": "src/sepsrisk/ingestion/downloader.py",
+      "lineno": 41
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:_normalize_chunk",
+      "kind": "function",
+      "name": "_normalize_chunk",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 7
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:stage_eeff",
+      "kind": "function",
+      "name": "stage_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 31
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:merge_staged_eeff",
+      "kind": "function",
+      "name": "merge_staged_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 67
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:normalize_eeff",
+      "kind": "function",
+      "name": "normalize_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 117
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/eeff.py:upsert_eeff",
+      "kind": "function",
+      "name": "upsert_eeff",
+      "path": "src/sepsrisk/ingestion/eeff.py",
+      "lineno": 129
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:extract_or_list",
+      "kind": "function",
+      "name": "extract_or_list",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:_detect_text",
+      "kind": "function",
+      "name": "_detect_text",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:estimate_rows",
+      "kind": "function",
+      "name": "estimate_rows",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 33
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:iter_table",
+      "kind": "function",
+      "name": "iter_table",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 45
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:read_table",
+      "kind": "function",
+      "name": "read_table",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 55
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:match_columns",
+      "kind": "function",
+      "name": "match_columns",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 62
+    },
+    {
+      "id": "function:src/sepsrisk/ingestion/parser.py:parse_balance",
+      "kind": "function",
+      "name": "parse_balance",
+      "path": "src/sepsrisk/ingestion/parser.py",
+      "lineno": 72
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_write_state",
+      "kind": "function",
+      "name": "_write_state",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 22
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_source_year",
+      "kind": "function",
+      "name": "_source_year",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 25
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_resume_skip_completed",
+      "kind": "function",
+      "name": "_resume_skip_completed",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 28
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_needs_full_discovery",
+      "kind": "function",
+      "name": "_needs_full_discovery",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_discover_cached_items",
+      "kind": "function",
+      "name": "_discover_cached_items",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 46
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_write_load_status",
+      "kind": "function",
+      "name": "_write_load_status",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 64
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:_refresh_dashboard",
+      "kind": "function",
+      "name": "_refresh_dashboard",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 78
+    },
+    {
+      "id": "function:src/sepsrisk/pipeline.py:run",
+      "kind": "function",
+      "name": "run",
+      "path": "src/sepsrisk/pipeline.py",
+      "lineno": 85
+    },
+    {
+      "id": "class:src/sepsrisk/progress.py:_NullBar",
+      "kind": "class",
+      "name": "_NullBar",
+      "path": "src/sepsrisk/progress.py",
+      "lineno": 13
+    },
+    {
+      "id": "class:src/sepsrisk/progress.py:ProgressConfig",
+      "kind": "class",
+      "name": "ProgressConfig",
+      "path": "src/sepsrisk/progress.py",
+      "lineno": 22
+    },
+    {
+      "id": "class:src/sepsrisk/progress.py:PipelineProgress",
+      "kind": "class",
+      "name": "PipelineProgress",
+      "path": "src/sepsrisk/progress.py",
+      "lineno": 29
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_cfg",
+      "kind": "function",
+      "name": "_cfg",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_is_excluded",
+      "kind": "function",
+      "name": "_is_excluded",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:collect_publish_files",
+      "kind": "function",
+      "name": "collect_publish_files",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 30
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:preflight",
+      "kind": "function",
+      "name": "preflight",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 39
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_run",
+      "kind": "function",
+      "name": "_run",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 51
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_token",
+      "kind": "function",
+      "name": "_token",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 54
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:_askpass",
+      "kind": "function",
+      "name": "_askpass",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 63
+    },
+    {
+      "id": "function:src/sepsrisk/publication/github.py:publish_project",
+      "kind": "function",
+      "name": "publish_project",
+      "path": "src/sepsrisk/publication/github.py",
+      "lineno": 70
+    },
+    {
+      "id": "function:src/sepsrisk/qa/core.py:qa_eeff",
+      "kind": "function",
+      "name": "qa_eeff",
+      "path": "src/sepsrisk/qa/core.py",
+      "lineno": 1
+    },
+    {
+      "id": "function:src/sepsrisk/qa/core.py:critical",
+      "kind": "function",
+      "name": "critical",
+      "path": "src/sepsrisk/qa/core.py",
+      "lineno": 6
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:safe",
+      "kind": "function",
+      "name": "safe",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 12
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_records",
+      "kind": "function",
+      "name": "_records",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_atomic_write",
+      "kind": "function",
+      "name": "_atomic_write",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 25
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_percentiles",
+      "kind": "function",
+      "name": "_percentiles",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 42
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_benchmarks",
+      "kind": "function",
+      "name": "_risk_benchmarks",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 55
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_index_frame",
+      "kind": "function",
+      "name": "_risk_index_frame",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 64
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_payload_for_entity",
+      "kind": "function",
+      "name": "_risk_payload_for_entity",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 94
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_latest_distributions",
+      "kind": "function",
+      "name": "_latest_distributions",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 129
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_read_load_status",
+      "kind": "function",
+      "name": "_read_load_status",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 142
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:rebuild_index",
+      "kind": "function",
+      "name": "rebuild_index",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 148
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:export_dashboard",
+      "kind": "function",
+      "name": "export_dashboard",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 164
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:_page_url",
+      "kind": "function",
+      "name": "_page_url",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:_is_direct_download_url",
+      "kind": "function",
+      "name": "_is_direct_download_url",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 13
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:_fetch_catalog_page",
+      "kind": "function",
+      "name": "_fetch_catalog_page",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 18
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:discover_source_items",
+      "kind": "function",
+      "name": "discover_source_items",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 38
+    },
+    {
+      "id": "function:src/sepsrisk/sources/discovery.py:resolve_download",
+      "kind": "function",
+      "name": "resolve_download",
+      "path": "src/sepsrisk/sources/discovery.py",
+      "lineno": 118
+    },
+    {
+      "id": "function:src/sepsrisk/storage/analytics.py:_root",
+      "kind": "function",
+      "name": "_root",
+      "path": "src/sepsrisk/storage/analytics.py",
+      "lineno": 7
+    },
+    {
+      "id": "function:src/sepsrisk/storage/analytics.py:query_df",
+      "kind": "function",
+      "name": "query_df",
+      "path": "src/sepsrisk/storage/analytics.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/storage/analytics.py:open_analytics",
+      "kind": "function",
+      "name": "open_analytics",
+      "path": "src/sepsrisk/storage/analytics.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_root",
+      "kind": "function",
+      "name": "_root",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:parquet_root",
+      "kind": "function",
+      "name": "parquet_root",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 13
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:eeff_root",
+      "kind": "function",
+      "name": "eeff_root",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:partition_path",
+      "kind": "function",
+      "name": "partition_path",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 19
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:eeff_files",
+      "kind": "function",
+      "name": "eeff_files",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 22
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:has_eeff",
+      "kind": "function",
+      "name": "has_eeff",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 24
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_partition_fingerprint",
+      "kind": "function",
+      "name": "_partition_fingerprint",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 27
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_atomic_parquet",
+      "kind": "function",
+      "name": "_atomic_parquet",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 36
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_read_parquet",
+      "kind": "function",
+      "name": "_read_parquet",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 44
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_month_key",
+      "kind": "function",
+      "name": "_month_key",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 49
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:_dedupe",
+      "kind": "function",
+      "name": "_dedupe",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 53
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:ingest_eeff_files",
+      "kind": "function",
+      "name": "ingest_eeff_files",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 58
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:mark_source",
+      "kind": "function",
+      "name": "mark_source",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 107
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:source_record",
+      "kind": "function",
+      "name": "source_record",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 114
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:source_sha_seen",
+      "kind": "function",
+      "name": "source_sha_seen",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 116
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:storage_summary",
+      "kind": "function",
+      "name": "storage_summary",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 119
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:legacy_sqlite_path",
+      "kind": "function",
+      "name": "legacy_sqlite_path",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 126
+    },
+    {
+      "id": "function:src/sepsrisk/storage/parquet_store.py:migrate_legacy_sqlite",
+      "kind": "function",
+      "name": "migrate_legacy_sqlite",
+      "path": "src/sepsrisk/storage/parquet_store.py",
+      "lineno": 132
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:_root",
+      "kind": "function",
+      "name": "_root",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 7
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:state_dir",
+      "kind": "function",
+      "name": "state_dir",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:_atomic_json",
+      "kind": "function",
+      "name": "_atomic_json",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:load_json",
+      "kind": "function",
+      "name": "load_json",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 23
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:save_json",
+      "kind": "function",
+      "name": "save_json",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 30
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:source_catalog",
+      "kind": "function",
+      "name": "source_catalog",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 34
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:save_source_catalog",
+      "kind": "function",
+      "name": "save_source_catalog",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 38
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:ingestion_manifest",
+      "kind": "function",
+      "name": "ingestion_manifest",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 44
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:save_ingestion_manifest",
+      "kind": "function",
+      "name": "save_ingestion_manifest",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 48
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:app_meta",
+      "kind": "function",
+      "name": "app_meta",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 52
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:meta_get",
+      "kind": "function",
+      "name": "meta_get",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 56
+    },
+    {
+      "id": "function:src/sepsrisk/storage/state.py:meta_set",
+      "kind": "function",
+      "name": "meta_set",
+      "path": "src/sepsrisk/storage/state.py",
+      "lineno": 60
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:sha256_file",
+      "kind": "function",
+      "name": "sha256_file",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:sha256_text",
+      "kind": "function",
+      "name": "sha256_text",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 9
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:utcnow",
+      "kind": "function",
+      "name": "utcnow",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 10
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:norm_text",
+      "kind": "function",
+      "name": "norm_text",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:src/sepsrisk/utils.py:ensure_clean_dir",
+      "kind": "function",
+      "name": "ensure_clean_dir",
+      "path": "src/sepsrisk/utils.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:tests/conftest.py:project_root",
+      "kind": "function",
+      "name": "project_root",
+      "path": "tests/conftest.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_academic_disclaimer.py:test_academic_disclaimer_is_configured_and_visible",
+      "kind": "function",
+      "name": "test_academic_disclaimer_is_configured_and_visible",
+      "path": "tests/test_academic_disclaimer.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_atlas.py:test_atlas_handoff",
+      "kind": "function",
+      "name": "test_atlas_handoff",
+      "path": "tests/test_atlas.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_013_ux.py:test_013_ux_contract",
+      "kind": "function",
+      "name": "test_013_ux_contract",
+      "path": "tests/test_dashboard_013_ux.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_013_ux.py:test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "kind": "function",
+      "name": "test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "path": "tests/test_dashboard_013_ux.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:tests/test_dashboard_014_final.py:test_014_mathjax_and_methodology_modal",
+      "kind": "function",
+      "name": "test_014_mathjax_and_methodology_modal",
+      "path": "tests/test_dashboard_014_final.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_014_final.py:test_014_static_and_risk_client_fallback",
+      "kind": "function",
+      "name": "test_014_static_and_risk_client_fallback",
+      "path": "tests/test_dashboard_014_final.py",
+      "lineno": 14
+    },
+    {
+      "id": "function:tests/test_dashboard_014_final.py:test_014_main_metric_title_is_dynamic",
+      "kind": "function",
+      "name": "test_014_main_metric_title_is_dynamic",
+      "path": "tests/test_dashboard_014_final.py",
+      "lineno": 25
+    },
+    {
+      "id": "function:tests/test_dashboard_014_ux.py:test_014_ux_contract",
+      "kind": "function",
+      "name": "test_014_ux_contract",
+      "path": "tests/test_dashboard_014_ux.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_014_ux.py:test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "kind": "function",
+      "name": "test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "path": "tests/test_dashboard_014_ux.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:tests/test_dashboard_015_kpi_trends.py:test_kpi_trend_slots_and_logic_exist",
+      "kind": "function",
+      "name": "test_kpi_trend_slots_and_logic_exist",
+      "path": "tests/test_dashboard_015_kpi_trends.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_015_kpi_trends.py:test_semantic_directions_are_encoded",
+      "kind": "function",
+      "name": "test_semantic_directions_are_encoded",
+      "path": "tests/test_dashboard_015_kpi_trends.py",
+      "lineno": 15
+    },
+    {
+      "id": "function:tests/test_dashboard_export.py:test_empty_dashboard_exports_index_files",
+      "kind": "function",
+      "name": "test_empty_dashboard_exports_index_files",
+      "path": "tests/test_dashboard_export.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_dashboard_live_bundle.py:test_app_uses_live_bundle_and_is_static",
+      "kind": "function",
+      "name": "test_app_uses_live_bundle_and_is_static",
+      "path": "tests/test_dashboard_live_bundle.py",
+      "lineno": 3
+    },
+    {
+      "id": "class:tests/test_discovery.py:_Resp",
+      "kind": "class",
+      "name": "_Resp",
+      "path": "tests/test_discovery.py",
+      "lineno": 7
+    },
+    {
+      "id": "class:tests/test_discovery.py:_Session",
+      "kind": "class",
+      "name": "_Session",
+      "path": "tests/test_discovery.py",
+      "lineno": 17
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_config_regex_matches_years_and_anteriores",
+      "kind": "function",
+      "name": "test_config_regex_matches_years_and_anteriores",
+      "path": "tests/test_discovery.py",
+      "lineno": 34
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_discovery_does_not_stop_on_first_empty_page",
+      "kind": "function",
+      "name": "test_discovery_does_not_stop_on_first_empty_page",
+      "path": "tests/test_discovery.py",
+      "lineno": 42
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_resolve_download_prefers_explicit_sdm_over_navigation",
+      "kind": "function",
+      "name": "test_resolve_download_prefers_explicit_sdm_over_navigation",
+      "path": "tests/test_discovery.py",
+      "lineno": 50
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_discovery_page_limit_is_respected",
+      "kind": "function",
+      "name": "test_discovery_page_limit_is_respected",
+      "path": "tests/test_discovery.py",
+      "lineno": 66
+    },
+    {
+      "id": "function:tests/test_discovery.py:test_parallel_discovery_finds_same_item",
+      "kind": "function",
+      "name": "test_parallel_discovery_finds_same_item",
+      "path": "tests/test_discovery.py",
+      "lineno": 74
+    },
+    {
+      "id": "function:tests/test_discovery_cache.py:test_cache_full_once_then_incremental",
+      "kind": "function",
+      "name": "test_cache_full_once_then_incremental",
+      "path": "tests/test_discovery_cache.py",
+      "lineno": 5
+    },
+    {
+      "id": "class:tests/test_downloader.py:R",
+      "kind": "class",
+      "name": "R",
+      "path": "tests/test_downloader.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_downloader.py:test_downloader_rejects_html",
+      "kind": "function",
+      "name": "test_downloader_rejects_html",
+      "path": "tests/test_downloader.py",
+      "lineno": 15
+    },
+    {
+      "id": "function:tests/test_downloader.py:test_downloader_accepts_zip_payload",
+      "kind": "function",
+      "name": "test_downloader_accepts_zip_payload",
+      "path": "tests/test_downloader.py",
+      "lineno": 20
+    },
+    {
+      "id": "function:tests/test_feature_dependencies.py:_base",
+      "kind": "function",
+      "name": "_base",
+      "path": "tests/test_feature_dependencies.py",
+      "lineno": 6
+    },
+    {
+      "id": "function:tests/test_feature_dependencies.py:test_derived_feature_can_feed_later_feature",
+      "kind": "function",
+      "name": "test_derived_feature_can_feed_later_feature",
+      "path": "tests/test_feature_dependencies.py",
+      "lineno": 17
+    },
+    {
+      "id": "function:tests/test_feature_dependencies.py:test_broken_feature_is_not_silently_skipped",
+      "kind": "function",
+      "name": "test_broken_feature_is_not_silently_skipped",
+      "path": "tests/test_feature_dependencies.py",
+      "lineno": 28
+    },
+    {
+      "id": "function:tests/test_github_publication_015.py:test_github_config_and_gitignore",
+      "kind": "function",
+      "name": "test_github_config_and_gitignore",
+      "path": "tests/test_github_publication_015.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_github_publication_015.py:test_preflight_excludes_operational_data",
+      "kind": "function",
+      "name": "test_preflight_excludes_operational_data",
+      "path": "tests/test_github_publication_015.py",
+      "lineno": 16
+    },
+    {
+      "id": "function:tests/test_parser.py:test_balance",
+      "kind": "function",
+      "name": "test_balance",
+      "path": "tests/test_parser.py",
+      "lineno": 2
+    },
+    {
+      "id": "function:tests/test_pipeline_progress_init.py:test_pipeline_progress_accepts_project_progress_cfg",
+      "kind": "function",
+      "name": "test_pipeline_progress_accepts_project_progress_cfg",
+      "path": "tests/test_pipeline_progress_init.py",
+      "lineno": 3
+    },
+    {
+      "id": "function:tests/test_qa.py:test_empty",
+      "kind": "function",
+      "name": "test_empty",
+      "path": "tests/test_qa.py",
+      "lineno": 3
+    },
+    {
+      "id": "function:tests/test_resume_and_live_html.py:test_resume_skips_completed_closed_year",
+      "kind": "function",
+      "name": "test_resume_skips_completed_closed_year",
+      "path": "tests/test_resume_and_live_html.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_risk_index_013.py:test_relative_risk_index_is_bounded_and_has_contributors",
+      "kind": "function",
+      "name": "test_relative_risk_index_is_bounded_and_has_contributors",
+      "path": "tests/test_risk_index_013.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_risk_index_014.py:test_relative_risk_index_is_bounded_and_has_contributors",
+      "kind": "function",
+      "name": "test_relative_risk_index_is_bounded_and_has_contributors",
+      "path": "tests/test_risk_index_014.py",
+      "lineno": 4
+    },
+    {
+      "id": "function:tests/test_utils.py:test_norm",
+      "kind": "function",
+      "name": "test_norm",
+      "path": "tests/test_utils.py",
+      "lineno": 2
+    },
+    {
+      "id": "function:tests/test_utils.py:test_sha",
+      "kind": "function",
+      "name": "test_sha",
+      "path": "tests/test_utils.py",
+      "lineno": 3
+    },
+    {
+      "id": "source:SEPS_EEFF",
+      "kind": "source",
+      "label": "SEPS · EEFF mensuales"
+    },
+    {
+      "id": "process:discovery",
+      "kind": "process",
+      "label": "Discovery cacheado + incremental"
+    },
+    {
+      "id": "artifact:source_catalog",
+      "kind": "state",
+      "label": "data/state/source_catalog.json"
+    },
+    {
+      "id": "process:ingestion",
+      "kind": "process",
+      "label": "Descarga + parseo + filtro Segmento 1"
+    },
+    {
+      "id": "artifact:parquet_eeff",
+      "kind": "dataset",
+      "label": "Parquet EEFF year/month"
+    },
+    {
+      "id": "process:duckdb",
+      "kind": "process",
+      "label": "DuckDB efímero sobre Parquet"
+    },
+    {
+      "id": "process:features",
+      "kind": "process",
+      "label": "Features financieras"
+    },
+    {
+      "id": "process:signals",
+      "kind": "process",
+      "label": "Señales robustas"
+    },
+    {
+      "id": "process:survival",
+      "kind": "process",
+      "label": "Hazard / supervivencia"
+    },
+    {
+      "id": "process:dashboard_export",
+      "kind": "process",
+      "label": "Export dashboard"
+    },
+    {
+      "id": "artifact:githubpage",
+      "kind": "artifact",
+      "label": "githubpage/"
+    },
+    {
+      "id": "process:github_publish",
+      "kind": "process",
+      "label": "Publicación segura de código a GitHub"
+    },
+    {
+      "id": "artifact:github_code_repo",
+      "kind": "artifact",
+      "label": "github.com/mathematicatutorias-ai/seps-segmento1-risk-code"
+    }
+  ],
+  "edges": [
+    {
+      "from": "file:scripts/00_master.py",
+      "to": "file:src/sepsrisk/pipeline.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/01_init_database.py",
+      "to": "file:src/sepsrisk/storage/parquet_store.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/10_run_qa.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/20_build_features.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/20_build_features.py",
+      "to": "file:src/sepsrisk/features/engine.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/30_build_signals.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/30_build_signals.py",
+      "to": "file:src/sepsrisk/features/engine.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/30_build_signals.py",
+      "to": "file:src/sepsrisk/inference/signals.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/31_import_events.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/31_import_events.py",
+      "to": "file:src/sepsrisk/storage/parquet_store.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/80_export_dashboard.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/80_export_dashboard.py",
+      "to": "file:src/sepsrisk/features/engine.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/80_export_dashboard.py",
+      "to": "file:src/sepsrisk/inference/signals.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/80_export_dashboard.py",
+      "to": "file:src/sepsrisk/inference/survival.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/80_export_dashboard.py",
+      "to": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/90_build_atlas.py",
+      "to": "file:src/sepsrisk/atlas/build.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:scripts/95_publish_github.py",
+      "to": "file:src/sepsrisk/publication/github.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_sha",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_rel",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_project_files",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_module_from_path",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_python_nodes_edges",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_sql_tables",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_lineage",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_db_state",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_write_atlas_db",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_validate",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_handoff_members",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:_create_handoff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "function:src/sepsrisk/atlas/build.py:build_atlas",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/atlas/build.py",
+      "to": "file:src/sepsrisk/storage/parquet_store.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/config.py",
+      "to": "function:src/sepsrisk/config.py:project_root",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/config.py",
+      "to": "function:src/sepsrisk/config.py:load_yaml",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "function:src/sepsrisk/database.py:connect",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "function:src/sepsrisk/database.py:init_db",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "function:src/sepsrisk/database.py:db_path",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "function:src/sepsrisk/database.py:persistent_db_path",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "function:src/sepsrisk/database.py:runtime_db_path",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "function:src/sepsrisk/database.py:checkpoint_db",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/database.py",
+      "to": "file:src/sepsrisk/storage/parquet_store.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "class:src/sepsrisk/features/engine.py:FeatureEvaluationError",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "function:src/sepsrisk/features/engine.py:comp",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "function:src/sepsrisk/features/engine.py:_replace_table",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "function:src/sepsrisk/features/engine.py:_evaluate_features",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "function:src/sepsrisk/features/engine.py:build_features",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/signals.py",
+      "to": "function:src/sepsrisk/inference/signals.py:resolve_focus_entity",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/signals.py",
+      "to": "function:src/sepsrisk/inference/signals.py:build_signals",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/signals.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/signals.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/signals.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "function:src/sepsrisk/inference/survival.py:readiness",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "function:src/sepsrisk/inference/survival.py:_panel",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "function:src/sepsrisk/inference/survival.py:fit_if_ready",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "function:src/sepsrisk/inference/survival.py:record_readiness",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/downloader.py",
+      "to": "function:src/sepsrisk/ingestion/downloader.py:_content_type",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/downloader.py",
+      "to": "function:src/sepsrisk/ingestion/downloader.py:_suffix",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/downloader.py",
+      "to": "function:src/sepsrisk/ingestion/downloader.py:_looks_like_html",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/downloader.py",
+      "to": "function:src/sepsrisk/ingestion/downloader.py:download",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/downloader.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/eeff.py",
+      "to": "function:src/sepsrisk/ingestion/eeff.py:_normalize_chunk",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/eeff.py",
+      "to": "function:src/sepsrisk/ingestion/eeff.py:stage_eeff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/eeff.py",
+      "to": "function:src/sepsrisk/ingestion/eeff.py:merge_staged_eeff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/eeff.py",
+      "to": "function:src/sepsrisk/ingestion/eeff.py:normalize_eeff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/eeff.py",
+      "to": "function:src/sepsrisk/ingestion/eeff.py:upsert_eeff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/eeff.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/eeff.py",
+      "to": "file:src/sepsrisk/ingestion/parser.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "function:src/sepsrisk/ingestion/parser.py:extract_or_list",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "function:src/sepsrisk/ingestion/parser.py:_detect_text",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "function:src/sepsrisk/ingestion/parser.py:estimate_rows",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "function:src/sepsrisk/ingestion/parser.py:iter_table",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "function:src/sepsrisk/ingestion/parser.py:read_table",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "function:src/sepsrisk/ingestion/parser.py:match_columns",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "function:src/sepsrisk/ingestion/parser.py:parse_balance",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/ingestion/parser.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:_write_state",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:_source_year",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:_resume_skip_completed",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:_needs_full_discovery",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:_discover_cached_items",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:_write_load_status",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:_refresh_dashboard",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "function:src/sepsrisk/pipeline.py:run",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/sources/discovery.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/ingestion/downloader.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/ingestion/parser.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/features/engine.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/inference/signals.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/inference/survival.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/atlas/build.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/progress.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/storage/state.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/storage/parquet_store.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/pipeline.py",
+      "to": "file:src/sepsrisk/storage/state.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/progress.py",
+      "to": "class:src/sepsrisk/progress.py:_NullBar",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/progress.py",
+      "to": "class:src/sepsrisk/progress.py:ProgressConfig",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/progress.py",
+      "to": "class:src/sepsrisk/progress.py:PipelineProgress",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/__init__.py",
+      "to": "file:src/sepsrisk/publication/github.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:_cfg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:_is_excluded",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:collect_publish_files",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:preflight",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:_run",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:_token",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:_askpass",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "function:src/sepsrisk/publication/github.py:publish_project",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/qa/core.py",
+      "to": "function:src/sepsrisk/qa/core.py:qa_eeff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/qa/core.py",
+      "to": "function:src/sepsrisk/qa/core.py:critical",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:safe",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_records",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_atomic_write",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_percentiles",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_benchmarks",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_index_frame",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_payload_for_entity",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_latest_distributions",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:_read_load_status",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:rebuild_index",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "function:src/sepsrisk/reporting/export_dashboard.py:export_dashboard",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "file:src/sepsrisk/inference/signals.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "file:src/sepsrisk/inference/survival.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/sources/discovery.py",
+      "to": "function:src/sepsrisk/sources/discovery.py:_page_url",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/sources/discovery.py",
+      "to": "function:src/sepsrisk/sources/discovery.py:_is_direct_download_url",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/sources/discovery.py",
+      "to": "function:src/sepsrisk/sources/discovery.py:_fetch_catalog_page",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/sources/discovery.py",
+      "to": "function:src/sepsrisk/sources/discovery.py:discover_source_items",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/sources/discovery.py",
+      "to": "function:src/sepsrisk/sources/discovery.py:resolve_download",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/sources/discovery.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/analytics.py",
+      "to": "function:src/sepsrisk/storage/analytics.py:_root",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/analytics.py",
+      "to": "function:src/sepsrisk/storage/analytics.py:query_df",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/analytics.py",
+      "to": "function:src/sepsrisk/storage/analytics.py:open_analytics",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/analytics.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/analytics.py",
+      "to": "file:src/sepsrisk/storage/parquet_store.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:_root",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:parquet_root",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:eeff_root",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:partition_path",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:eeff_files",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:has_eeff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:_partition_fingerprint",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:_atomic_parquet",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:_read_parquet",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:_month_key",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:_dedupe",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:ingest_eeff_files",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:mark_source",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:source_record",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:source_sha_seen",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:storage_summary",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:legacy_sqlite_path",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "function:src/sepsrisk/storage/parquet_store.py:migrate_legacy_sqlite",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "file:src/sepsrisk/ingestion/eeff.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "file:src/sepsrisk/ingestion/parser.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "file:src/sepsrisk/storage/state.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "file:src/sepsrisk/storage/state.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "file:src/sepsrisk/storage/state.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:_root",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:state_dir",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:_atomic_json",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:load_json",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:save_json",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:source_catalog",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:save_source_catalog",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:ingestion_manifest",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:save_ingestion_manifest",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:app_meta",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:meta_get",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "function:src/sepsrisk/storage/state.py:meta_set",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/state.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:src/sepsrisk/utils.py",
+      "to": "function:src/sepsrisk/utils.py:sha256_file",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/utils.py",
+      "to": "function:src/sepsrisk/utils.py:sha256_text",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/utils.py",
+      "to": "function:src/sepsrisk/utils.py:utcnow",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/utils.py",
+      "to": "function:src/sepsrisk/utils.py:norm_text",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:src/sepsrisk/utils.py",
+      "to": "function:src/sepsrisk/utils.py:ensure_clean_dir",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/conftest.py",
+      "to": "function:tests/conftest.py:project_root",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_academic_disclaimer.py",
+      "to": "function:tests/test_academic_disclaimer.py:test_academic_disclaimer_is_configured_and_visible",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_atlas.py",
+      "to": "function:tests/test_atlas.py:test_atlas_handoff",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_atlas.py",
+      "to": "file:src/sepsrisk/atlas/build.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_dashboard_013_ux.py",
+      "to": "function:tests/test_dashboard_013_ux.py:test_013_ux_contract",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_013_ux.py",
+      "to": "function:tests/test_dashboard_013_ux.py:test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_014_final.py",
+      "to": "function:tests/test_dashboard_014_final.py:test_014_mathjax_and_methodology_modal",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_014_final.py",
+      "to": "function:tests/test_dashboard_014_final.py:test_014_static_and_risk_client_fallback",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_014_final.py",
+      "to": "function:tests/test_dashboard_014_final.py:test_014_main_metric_title_is_dynamic",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_014_ux.py",
+      "to": "function:tests/test_dashboard_014_ux.py:test_014_ux_contract",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_014_ux.py",
+      "to": "function:tests/test_dashboard_014_ux.py:test_risk_index_export_is_not_called_probability_when_uncalibrated",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_015_kpi_trends.py",
+      "to": "function:tests/test_dashboard_015_kpi_trends.py:test_kpi_trend_slots_and_logic_exist",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_015_kpi_trends.py",
+      "to": "function:tests/test_dashboard_015_kpi_trends.py:test_semantic_directions_are_encoded",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_export.py",
+      "to": "function:tests/test_dashboard_export.py:test_empty_dashboard_exports_index_files",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_dashboard_export.py",
+      "to": "file:src/sepsrisk/storage/analytics.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_dashboard_export.py",
+      "to": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_dashboard_live_bundle.py",
+      "to": "function:tests/test_dashboard_live_bundle.py:test_app_uses_live_bundle_and_is_static",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "class:tests/test_discovery.py:_Resp",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "class:tests/test_discovery.py:_Session",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "function:tests/test_discovery.py:test_config_regex_matches_years_and_anteriores",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "function:tests/test_discovery.py:test_discovery_does_not_stop_on_first_empty_page",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "function:tests/test_discovery.py:test_resolve_download_prefers_explicit_sdm_over_navigation",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "function:tests/test_discovery.py:test_discovery_page_limit_is_respected",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "function:tests/test_discovery.py:test_parallel_discovery_finds_same_item",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "file:src/sepsrisk/config.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_discovery.py",
+      "to": "file:src/sepsrisk/sources/discovery.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_discovery_cache.py",
+      "to": "function:tests/test_discovery_cache.py:test_cache_full_once_then_incremental",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_discovery_cache.py",
+      "to": "file:src/sepsrisk/pipeline.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_discovery_cache.py",
+      "to": "file:src/sepsrisk/storage/state.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_downloader.py",
+      "to": "class:tests/test_downloader.py:R",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_downloader.py",
+      "to": "function:tests/test_downloader.py:test_downloader_rejects_html",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_downloader.py",
+      "to": "function:tests/test_downloader.py:test_downloader_accepts_zip_payload",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_downloader.py",
+      "to": "file:src/sepsrisk/ingestion/downloader.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_feature_dependencies.py",
+      "to": "function:tests/test_feature_dependencies.py:_base",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_feature_dependencies.py",
+      "to": "function:tests/test_feature_dependencies.py:test_derived_feature_can_feed_later_feature",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_feature_dependencies.py",
+      "to": "function:tests/test_feature_dependencies.py:test_broken_feature_is_not_silently_skipped",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_feature_dependencies.py",
+      "to": "file:src/sepsrisk/features/engine.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_github_publication_015.py",
+      "to": "function:tests/test_github_publication_015.py:test_github_config_and_gitignore",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_github_publication_015.py",
+      "to": "function:tests/test_github_publication_015.py:test_preflight_excludes_operational_data",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_github_publication_015.py",
+      "to": "file:src/sepsrisk/publication/github.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_parser.py",
+      "to": "function:tests/test_parser.py:test_balance",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_parser.py",
+      "to": "file:src/sepsrisk/ingestion/parser.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_pipeline_progress_init.py",
+      "to": "function:tests/test_pipeline_progress_init.py:test_pipeline_progress_accepts_project_progress_cfg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_pipeline_progress_init.py",
+      "to": "file:src/sepsrisk/progress.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_qa.py",
+      "to": "function:tests/test_qa.py:test_empty",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_qa.py",
+      "to": "file:src/sepsrisk/qa/core.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_resume_and_live_html.py",
+      "to": "function:tests/test_resume_and_live_html.py:test_resume_skips_completed_closed_year",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_resume_and_live_html.py",
+      "to": "file:src/sepsrisk/pipeline.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_resume_and_live_html.py",
+      "to": "file:src/sepsrisk/storage/state.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_risk_index_013.py",
+      "to": "function:tests/test_risk_index_013.py:test_relative_risk_index_is_bounded_and_has_contributors",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_risk_index_013.py",
+      "to": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_risk_index_014.py",
+      "to": "function:tests/test_risk_index_014.py:test_relative_risk_index_is_bounded_and_has_contributors",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_risk_index_014.py",
+      "to": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "file:tests/test_utils.py",
+      "to": "function:tests/test_utils.py:test_norm",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_utils.py",
+      "to": "function:tests/test_utils.py:test_sha",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "file:tests/test_utils.py",
+      "to": "file:src/sepsrisk/utils.py",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "source:SEPS_EEFF",
+      "to": "process:discovery",
+      "type": "DISCOVERED_BY"
+    },
+    {
+      "from": "process:discovery",
+      "to": "artifact:source_catalog",
+      "type": "WRITES"
+    },
+    {
+      "from": "artifact:source_catalog",
+      "to": "process:ingestion",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:ingestion",
+      "to": "artifact:parquet_eeff",
+      "type": "WRITES_PARTITIONS"
+    },
+    {
+      "from": "artifact:parquet_eeff",
+      "to": "process:duckdb",
+      "type": "READS"
+    },
+    {
+      "from": "process:duckdb",
+      "to": "process:features",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:features",
+      "to": "process:signals",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:features",
+      "to": "process:survival",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:features",
+      "to": "process:dashboard_export",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:signals",
+      "to": "process:dashboard_export",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:survival",
+      "to": "process:dashboard_export",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:dashboard_export",
+      "to": "artifact:githubpage",
+      "type": "GENERATES"
+    },
+    {
+      "from": "artifact:githubpage",
+      "to": "process:github_publish",
+      "type": "INCLUDED_IN"
+    },
+    {
+      "from": "process:github_publish",
+      "to": "artifact:github_code_repo",
+      "type": "PUBLISHES"
+    },
+    {
+      "from": "file:src/sepsrisk/sources/discovery.py",
+      "to": "process:discovery",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/parquet_store.py",
+      "to": "process:ingestion",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "file:src/sepsrisk/storage/analytics.py",
+      "to": "process:duckdb",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "file:src/sepsrisk/features/engine.py",
+      "to": "process:features",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/signals.py",
+      "to": "process:signals",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "file:src/sepsrisk/inference/survival.py",
+      "to": "process:survival",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "file:src/sepsrisk/reporting/export_dashboard.py",
+      "to": "process:dashboard_export",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "from": "file:githubpage/index.html",
+      "to": "artifact:githubpage",
+      "type": "PART_OF"
+    },
+    {
+      "from": "file:src/sepsrisk/publication/github.py",
+      "to": "process:github_publish",
+      "type": "IMPLEMENTS"
+    }
+  ],
+  "validation": {
+    "unresolved": 0,
+    "issues": []
+  }
+}

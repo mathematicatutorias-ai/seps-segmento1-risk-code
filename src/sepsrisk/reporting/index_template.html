@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monitor de Riesgo Financiero</title>
+<link rel="stylesheet" href="assets/app.css">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script>
+window.MathJax={
+  tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"]]},
+  options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]},
+  chtml:{scale:0.96}
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<div id="demoWatermark" class="demo-watermark hidden">DEMO · SIN DATOS REALES</div>
+<div class="app" id="appRoot">
+  <aside id="sidebar">
+    <div class="brand"><span class="brand-full">SEPS · S1</span><span class="brand-mini">S1</span></div>
+    <nav>
+      <a href="#resumen" title="Resumen"><svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>Resumen</span></a>
+      <a href="#morosidad" title="Morosidad"><svg viewBox="0 0 24 24"><path d="M4 20V10m5 10V4m5 16v-7m5 7V7"/></svg><span>Morosidad</span></a>
+      <a href="#fondeo" title="Depósitos"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg><span>Depósitos</span></a>
+      <a href="#liquidez" title="Liquidez"><svg viewBox="0 0 24 24"><path d="M12 3s6 7 6 12a6 6 0 1 1-12 0c0-5 6-12 6-12z"/></svg><span>Liquidez</span></a>
+      <a href="#solvencia" title="Solvencia"><svg viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 5-3.4 8-8 9-4.6-1-8-4-8-9V6z"/></svg><span>Solvencia</span></a>
+      <a href="#resultados" title="Resultados"><svg viewBox="0 0 24 24"><path d="M4 19V9m5 10v-5m5 5V5m5 14v-8"/></svg><span>Resultados</span></a>
+      <a href="#riesgo" title="Riesgo"><svg viewBox="0 0 24 24"><path d="M12 4 3 20h18z"/><path d="M12 9v5m0 3v.1"/></svg><span>Riesgo</span></a>
+      <a href="#metodologia" title="Metodología"><svg viewBox="0 0 24 24"><path d="M6 3h10l3 3v15H6z"/><path d="M9 10h6m-6 4h6m-6 4h4"/></svg><span>Metodología</span></a>
+    </nav>
+    <button id="sidebarToggle" class="sidebar-toggle" title="Contraer/expandir panel">‹</button>
+    <div class="foot"><span class="foot-label">Dashboard estático</span><br><span id="cutoffSide">—</span><br><small>Build <span id="buildSide">—</span></small></div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div class="titlebox"><h1 id="title">CPN · Monitor de Riesgo Financiero</h1><p id="subtitle"></p></div>
+      <div class="controls">
+        <label class="entity-control">Entidad<select id="entitySelect"></select></label>
+        <label>Periodo<select id="period"><option value="12">1 año</option><option value="36">3 años</option><option value="60">5 años</option><option value="all" selected>Todo</option></select></label>
+        <label>Agregación<select id="agg"><option value="monthly">Mensual</option><option value="quarterly" selected>Trimestral</option><option value="semiannual">Semestral</option><option value="annual">Anual</option></select></label>
+        <label>Visual<select id="viz"><option value="line">Línea</option><option value="candles" selected>Velas</option></select></label>
+        <div class="buildmeta"><span>Corte</span><b id="cutoffTop">—</b><small id="buildTop">Build —</small></div>
+      </div>
+    </header>
+
+    <div id="demoBanner" class="banner hidden"></div>
+    <div id="academicNotice" class="academic-notice hidden"></div>
+
+    <section id="resumen" class="cards">
+      <div class="card emphasis"><div class="kpi-icon risk-icon">▥</div><div><span>Morosidad</span><div class="kpi-value-row"><b id="kpiMora">—</b><span id="trendMora" class="kpi-trend neutral" aria-label="Sin comparación">→</span></div><small>cartera improductiva / bruta</small></div></div>
+      <div class="card"><div class="kpi-icon blue-icon">◉</div><div><span>Cobertura</span><div class="kpi-value-row"><b id="kpiCoverage">—</b><span id="trendCoverage" class="kpi-trend neutral" aria-label="Sin comparación">→</span></div><small>provisión / improductiva</small></div></div>
+      <div class="card"><div class="kpi-icon green-icon">◒</div><div><span>Liquidez</span><div class="kpi-value-row"><b id="kpiLiquidity">—</b><span id="trendLiquidity" class="kpi-trend neutral" aria-label="Sin comparación">→</span></div><small>fondos / depósitos CP</small></div></div>
+      <div class="card"><div class="kpi-icon purple-icon">↗</div><div><span>Depósitos Δ3m</span><div class="kpi-value-row"><b id="kpiDeposits">—</b><span id="trendDeposits" class="kpi-trend neutral" aria-label="Sin comparación">→</span></div><small>variación trimestral</small></div></div>
+      <div class="card"><div class="kpi-icon amber-icon">◔</div><div><span>Patrimonio / Activos</span><div class="kpi-value-row"><b id="kpiEquity">—</b><span id="trendEquity" class="kpi-trend neutral" aria-label="Sin comparación">→</span></div><small>capitalización</small></div></div>
+      <div class="card inference-card"><div class="kpi-icon slate-icon">◌</div><div><span id="riskKpiLabel">Índice de riesgo</span><div class="kpi-value-row"><b id="kpiInference">—</b><span id="trendRisk" class="kpi-trend neutral" aria-label="Sin comparación">→</span></div><small id="inferenceNote">0–100</small></div></div>
+    </section>
+
+    <section class="grid executive">
+      <article class="panel" id="morosidad">
+        <div class="panelhead"><div><h2 id="mainTitle">Morosidad · entidad vs Segmento 1</h2><p id="mainSubtitle">Mensual = línea; periodos agregados = OHLC.</p></div><select id="mainMetric"><option value="delinquency_ratio">Morosidad total</option><option value="coverage_ratio">Cobertura</option><option value="liquidity_ratio">Liquidez</option><option value="deposits_total">Depósitos</option></select></div>
+        <div id="mainChart" class="chart tall"></div>
+      </article>
+      <div class="rightstack">
+        <article class="panel gauge-panel" id="riesgo">
+          <div class="panelhead"><div><h2 id="gaugeTitle">Índice de riesgo relativo</h2><p id="gaugeSubtitle">0–100 · comparación multivariable</p></div><select id="horizon"><option value="6">6 meses</option><option value="12" selected>12 meses</option><option value="18">18 meses</option></select></div>
+          <div id="riskGauge" class="gauge"></div>
+          <div id="inferencePanel" class="inference-panel"></div>
+        </article>
+        <article class="panel"><h2>Señales · último corte</h2><div id="signals"></div></article>
+      </div>
+    </section>
+
+    <section class="grid two lower-major">
+      <article class="panel" id="fondeo"><div class="panelhead"><div><h2>Depósitos · entidad vs Segmento 1</h2><p>Saldo total y referencia contemporánea.</p></div></div><div id="depositsChart" class="chart"></div></article>
+      <article class="panel" id="liquidez"><div class="panelhead"><div><h2>Liquidez · entidad vs Segmento 1</h2><p>Fondos disponibles / depósitos de corto plazo.</p></div></div><div id="liquidityChart" class="chart"></div></article>
+      <article class="panel" id="solvencia"><div class="panelhead"><div><h2>Solvencia · entidad vs Segmento 1</h2><p>Patrimonio / activos.</p></div></div><div id="equityChart" class="chart"></div></article>
+      <article class="panel" id="resultados"><div class="panelhead"><div><h2>Resultados · entidad vs Segmento 1</h2><p>Resultado / activos (proxy ROA).</p></div></div><div id="roaChart" class="chart"></div></article>
+    </section>
+
+    <section class="grid three analytics-row">
+      <article class="panel"><h2>Señales de riesgo · último corte</h2><div id="signalsTable" class="signals-table"></div></article>
+      <article class="panel"><h2>Variables que más contribuyen al riesgo</h2><div id="contributorsChart" class="chart compact"></div><p class="mini-note">Contribución relativa al índice. No implica causalidad.</p></article>
+      <article class="panel"><h2>Comparación con Segmento 1</h2><div id="radarChart" class="chart compact"></div></article>
+    </section>
+
+    <section class="grid three analytics-row second-row">
+      <article class="panel"><div class="panelhead"><div><h2>Distribución de entidades · Segmento 1</h2></div><select id="distributionMetric"><option value="delinquency_ratio">Morosidad</option><option value="coverage_ratio">Cobertura</option><option value="liquidity_ratio">Liquidez</option><option value="equity_assets_ratio">Solvencia</option><option value="roa_proxy">ROA</option></select></div><div id="distributionChart" class="chart compact"></div></article>
+      <article class="panel"><h2>Evolución del índice de riesgo</h2><div id="riskEvolutionChart" class="chart compact"></div></article>
+      <article class="panel methodology-card" id="metodologia"><h2>Metodología y alcance</h2><p id="methodologySummary"></p><button id="methodologyOpen" class="methodology-open" type="button">Ver metodología completa, fórmulas y limitaciones</button></article>
+    </section>
+
+    <footer><span id="footerText"></span><span class="footer-build">Corte <b id="footerCutoff">—</b> · Build <b id="footerBuild">—</b></span></footer>
+  </main>
+</div>
+<div id="methodologyModal" class="methodology-modal hidden" role="dialog" aria-modal="true" aria-labelledby="methodologyModalTitle">
+  <div class="methodology-backdrop" data-methodology-close></div>
+  <section class="methodology-sheet">
+    <div class="methodology-sheet-head"><div><span class="eyebrow">Metodología</span><h2 id="methodologyModalTitle">Índice de riesgo, indicadores y alcance</h2></div><button id="methodologyClose" class="methodology-close" type="button" aria-label="Cerrar">×</button></div>
+    <div id="methodologyModalContent" class="methodology-modal-content"></div>
+  </section>
+</div>
+<script>window.SEPS_BUILD_INFO=__SEPS_BUILD_INFO__;</script>
+<script src="data/live_bundle.js?v=__BUILD_ID__"></script>
+<script src="data/load_status.js?v=__BUILD_ID__"></script>
+<script src="assets/app.js?v=015"></script>
+</body></html>

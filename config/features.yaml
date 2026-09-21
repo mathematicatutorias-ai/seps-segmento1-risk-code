@@ -1,0 +1,47 @@
+# Metodología base: Fichas Metodológicas de Indicadores Financieros SEPS, abril 2025.
+components:
+  assets: {accounts: ["1"]}
+  liabilities: {accounts: ["2"]}
+  equity: {accounts: ["3"]}
+  expenses: {accounts: ["4"]}
+  income: {accounts: ["5"]}
+  available_funds: {accounts: ["11"]}
+  loan_portfolio_net: {accounts: ["14"]}
+  loan_provisions: {accounts: ["1499"]}
+  deposits_short_term: {accounts: ["2101", "2102", "210305", "210310"]}
+  deposits_total: {accounts: ["21"]}
+  deposits_1_30: {accounts: ["210305"]}
+  deposits_31_90: {accounts: ["210310"]}
+  deposits_91_180: {accounts: ["210315"]}
+  deposits_181_360: {accounts: ["210320"]}
+  deposits_361_plus: {accounts: ["210325"]}
+  liquidity_fund_obligations: {accounts: ["2610"]}
+  nonperforming_loans_pre_2021_05:
+    accounts: ["1425","1433","1441","1449","1457","1465","1430","1438","1446","1454","1462","1470","1426","1434","1442","1450","1458","1466","1431","1439","1447","1455","1463","1471","1427","1435","1443","1451","1459","1467","1432","1440","1448","1456","1464","1472","1428","1436","1444","1452","1460","1468","1429","1437","1445","1453","1461","1469","1479","1481","1483","1485","1487","1489"]
+  nonperforming_loans_post_2021_05:
+    accounts: ["1425","1433","1441","1449","1457","1465","1426","1434","1442","1450","1458","1466","1427","1435","1443","1451","1459","1467","1432","1440","1448","1456","1464","1472","1428","1436","1444","1452","1460","1468","1479","1481","1483","1485","1487","1489"]
+  mora_1_30: {description_regex: '(?i)(vencid|mora).*(1\\s*(a|-)\\s*30|de 1 a 30)'}
+  mora_31_90: {description_regex: '(?i)(vencid|mora).*(31\\s*(a|-)\\s*90|de 31 a 90)'}
+  mora_91_180: {description_regex: '(?i)(vencid|mora).*(91\\s*(a|-)\\s*180|de 91 a 180)'}
+  mora_180_plus: {description_regex: '(?i)(vencid|mora).*((181|180).*(270|360)|m[aá]s de (270|360)|361)'}
+  restructured: {description_regex: '(?i)reestructurad'}
+  refinanced: {description_regex: '(?i)refinanciad'}
+features:
+  loan_portfolio_gross: {expression: "loan_portfolio_net - loan_provisions", unit: usd, direction: context}
+  delinquency_ratio:
+    pieces:
+      - {until: "2021-04-30", expression: "nonperforming_loans_pre_2021_05 / loan_portfolio_gross"}
+      - {from: "2021-05-01", expression: "nonperforming_loans_post_2021_05 / loan_portfolio_gross"}
+    unit: ratio
+    direction: lower_better
+  coverage_ratio:
+    pieces:
+      - {until: "2021-04-30", expression: "abs(loan_provisions) / nonperforming_loans_pre_2021_05"}
+      - {from: "2021-05-01", expression: "abs(loan_provisions) / nonperforming_loans_post_2021_05"}
+    unit: ratio
+    direction: higher_better
+  liquidity_ratio: {expression: "available_funds / deposits_short_term", unit: ratio, direction: higher_better}
+  equity_assets_ratio: {expression: "equity / assets", unit: ratio, direction: higher_better}
+  deposit_growth_3m: {transform: pct_change, source: deposits_total, periods: 3, unit: ratio, direction: higher_better}
+  deposit_growth_12m: {transform: pct_change, source: deposits_total, periods: 12, unit: ratio, direction: higher_better}
+  roa_proxy: {expression: "(income - expenses) / assets", unit: ratio, direction: higher_better}

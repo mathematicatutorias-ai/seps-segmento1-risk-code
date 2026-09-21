@@ -1,0 +1,29 @@
+github:
+  owner: mathematicatutorias-ai
+  repository: seps-segmento1-risk-code
+  branch: main
+  visibility: public
+  remote_url: https://github.com/mathematicatutorias-ai/seps-segmento1-risk-code.git
+  secret_name: GITHUB_TOKEN
+  author_name: MathematicaTutorias AI
+  author_email: mathematicatutorias-ai@users.noreply.github.com
+  commit_message: Release 015
+  include_githubpage: true
+  exclude:
+  - data/
+  - '*.parquet'
+  - '*.sqlite'
+  - '*.duckdb'
+  - '*.db'
+  - '*.zip'
+  - __pycache__/
+  - .pytest_cache/
+  - .ipynb_checkpoints/
+  - atlas/handoff/
+  - atlas/snapshots/
+  - notebooks/jobs/output/
+  - .env
+  - .env.*
+  - '*.pem'
+  - '*.key'
+  - githubpage/data/

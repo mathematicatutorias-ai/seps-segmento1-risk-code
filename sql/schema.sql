@@ -1,0 +1,5 @@
+-- Update 009
+-- El almacén canónico ya no es SQLite. Este archivo se conserva como contrato/historial.
+-- EEFF: data/parquet/eeff/year=YYYY/month=MM/eeff.parquet
+-- Estado incremental: data/state/*.json
+-- DuckDB se crea en memoria y define views/tablas analíticas efímeras en runtime.

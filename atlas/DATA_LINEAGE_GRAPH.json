@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-09-21T17:56:25.915025+00:00",
+  "nodes": [
+    {
+      "id": "source:SEPS_EEFF",
+      "kind": "source",
+      "label": "SEPS · EEFF mensuales"
+    },
+    {
+      "id": "process:discovery",
+      "kind": "process",
+      "label": "Discovery cacheado + incremental"
+    },
+    {
+      "id": "artifact:source_catalog",
+      "kind": "state",
+      "label": "data/state/source_catalog.json"
+    },
+    {
+      "id": "process:ingestion",
+      "kind": "process",
+      "label": "Descarga + parseo + filtro Segmento 1"
+    },
+    {
+      "id": "artifact:parquet_eeff",
+      "kind": "dataset",
+      "label": "Parquet EEFF year/month"
+    },
+    {
+      "id": "process:duckdb",
+      "kind": "process",
+      "label": "DuckDB efímero sobre Parquet"
+    },
+    {
+      "id": "process:features",
+      "kind": "process",
+      "label": "Features financieras"
+    },
+    {
+      "id": "process:signals",
+      "kind": "process",
+      "label": "Señales robustas"
+    },
+    {
+      "id": "process:survival",
+      "kind": "process",
+      "label": "Hazard / supervivencia"
+    },
+    {
+      "id": "process:dashboard_export",
+      "kind": "process",
+      "label": "Export dashboard"
+    },
+    {
+      "id": "artifact:githubpage",
+      "kind": "artifact",
+      "label": "githubpage/"
+    },
+    {
+      "id": "process:github_publish",
+      "kind": "process",
+      "label": "Publicación segura de código a GitHub"
+    },
+    {
+      "id": "artifact:github_code_repo",
+      "kind": "artifact",
+      "label": "github.com/mathematicatutorias-ai/seps-segmento1-risk-code"
+    }
+  ],
+  "edges": [
+    {
+      "from": "source:SEPS_EEFF",
+      "to": "process:discovery",
+      "type": "DISCOVERED_BY"
+    },
+    {
+      "from": "process:discovery",
+      "to": "artifact:source_catalog",
+      "type": "WRITES"
+    },
+    {
+      "from": "artifact:source_catalog",
+      "to": "process:ingestion",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:ingestion",
+      "to": "artifact:parquet_eeff",
+      "type": "WRITES_PARTITIONS"
+    },
+    {
+      "from": "artifact:parquet_eeff",
+      "to": "process:duckdb",
+      "type": "READS"
+    },
+    {
+      "from": "process:duckdb",
+      "to": "process:features",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:features",
+      "to": "process:signals",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:features",
+      "to": "process:survival",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:features",
+      "to": "process:dashboard_export",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:signals",
+      "to": "process:dashboard_export",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:survival",
+      "to": "process:dashboard_export",
+      "type": "FEEDS"
+    },
+    {
+      "from": "process:dashboard_export",
+      "to": "artifact:githubpage",
+      "type": "GENERATES"
+    },
+    {
+      "from": "artifact:githubpage",
+      "to": "process:github_publish",
+      "type": "INCLUDED_IN"
+    },
+    {
+      "from": "process:github_publish",
+      "to": "artifact:github_code_repo",
+      "type": "PUBLISHES"
+    }
+  ]
+}

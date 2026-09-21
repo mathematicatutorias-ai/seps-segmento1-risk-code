@@ -1,0 +1,121 @@
+seps-segmento1-risk/
+├── atlas
+│   ├── handoff
+│   │   ├── snapshots
+│   │   │   ├── SEPS_STATE_20260921170345.zip
+│   │   │   ├── SEPS_STATE_20260921173751.zip
+│   │   │   ├── SEPS_STATE_20260921173806.zip
+│   │   │   ├── SEPS_STATE_20260921173940.zip
+│   │   │   └── SEPS_STATE_20260921173949.zip
+│   │   └── LATEST_STATE.zip
+│   ├── atlas.html
+│   ├── atlas.json
+│   ├── atlas.sqlite
+│   ├── CODE_ATLAS.json
+│   ├── DATA_LINEAGE_GRAPH.json
+│   ├── DEPENDENCY_GRAPH.json
+│   ├── README.md
+│   ├── RELEASE_MANIFEST.json
+│   └── STATE_MANIFEST.json
+├── config
+│   ├── events.yaml
+│   ├── features.yaml
+│   ├── github.yaml
+│   ├── project.yaml
+│   └── sources.yaml
+├── contracts
+│   ├── 01_fuentes_seps.md
+│   ├── 02_modelo_datos.md
+│   ├── 03_ingestion.md
+│   ├── 04_calidad_datos.md
+│   ├── 05_indicadores_financieros.md
+│   ├── 06_eventos_default.md
+│   ├── 07_publicacion_web.md
+│   ├── 08_atlas_continuidad.md
+│   └── 09_publicacion_github.md
+├── data
+├── githubpage
+│   ├── assets
+│   │   ├── app.css
+│   │   └── app.js
+│   ├── data
+│   │   └── .gitkeep
+│   └── index.html
+├── notebooks
+│   ├── jobs
+│   │   └── 002_inspeccion_cruda_base_y_morosidad.ipynb
+│   └── README.md
+├── scripts
+│   ├── 00_master.py
+│   ├── 01_init_database.py
+│   ├── 10_run_qa.py
+│   ├── 20_build_features.py
+│   ├── 30_build_signals.py
+│   ├── 31_import_events.py
+│   ├── 80_export_dashboard.py
+│   ├── 90_build_atlas.py
+│   └── 95_publish_github.py
+├── sql
+│   ├── indexes.sql
+│   └── schema.sql
+├── src
+│   └── sepsrisk
+│       ├── atlas
+│       │   └── build.py
+│       ├── features
+│       │   └── engine.py
+│       ├── inference
+│       │   ├── signals.py
+│       │   └── survival.py
+│       ├── ingestion
+│       │   ├── downloader.py
+│       │   ├── eeff.py
+│       │   └── parser.py
+│       ├── publication
+│       │   ├── __init__.py
+│       │   └── github.py
+│       ├── qa
+│       │   └── core.py
+│       ├── reporting
+│       │   ├── export_dashboard.py
+│       │   └── index_template.html
+│       ├── sources
+│       │   └── discovery.py
+│       ├── storage
+│       │   ├── __init__.py
+│       │   ├── analytics.py
+│       │   ├── parquet_store.py
+│       │   └── state.py
+│       ├── __init__.py
+│       ├── config.py
+│       ├── database.py
+│       ├── pipeline.py
+│       ├── progress.py
+│       └── utils.py
+├── tests
+│   ├── conftest.py
+│   ├── test_academic_disclaimer.py
+│   ├── test_atlas.py
+│   ├── test_dashboard_014_final.py
+│   ├── test_dashboard_014_ux.py
+│   ├── test_dashboard_015_kpi_trends.py
+│   ├── test_dashboard_export.py
+│   ├── test_dashboard_live_bundle.py
+│   ├── test_discovery.py
+│   ├── test_discovery_cache.py
+│   ├── test_downloader.py
+│   ├── test_feature_dependencies.py
+│   ├── test_github_publication_015.py
+│   ├── test_parser.py
+│   ├── test_pipeline_progress_init.py
+│   ├── test_qa.py
+│   ├── test_resume_and_live_html.py
+│   ├── test_risk_index_014.py
+│   └── test_utils.py
+├── .gitignore
+├── CHANGELOG.md
+├── CONTRATO.md
+├── MASTER_SEPS.ipynb
+├── PROJECT_TREE.txt
+├── pyproject.toml
+└── README.md

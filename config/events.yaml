@@ -1,0 +1,5 @@
+events:
+  input_csv: data/events.csv
+  enabled: false
+  adverse_types: [liquidation, forced_absorption, intervention]
+  censor_types: [voluntary_merger, normal_exit]

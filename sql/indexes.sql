@@ -1,0 +1,1 @@
+-- Update 009: no aplica. Parquet usa pruning por particiones year/month y DuckDB vectorized scans.

@@ -1,0 +1,121 @@
+project:
+  name: seps-segmento1-risk
+  version: 0.15.0
+  timezone: America/Guayaquil
+release:
+  update: 15
+  package_prefix: '015'
+paths:
+  parquet: data/parquet
+  state: data/state
+  temp: data/temp
+  githubpage: githubpage
+  atlas: atlas
+  database: data/operational/seps_segmento1.sqlite
+universe:
+  segment: 1
+focus_entity:
+  match_mode: contains_normalized
+  query: POLICIA NACIONAL
+  display_name: CPN
+dashboard:
+  title: Monitor de Riesgo Financiero
+  subtitle: Información oficial SEPS · Segmento 1
+  default_period: all
+  default_aggregation: quarterly
+  default_visualization: candles
+  show_demo_when_empty: true
+  sidebar_collapsible: true
+  compact_header: true
+  risk_index:
+    enabled: true
+    bands:
+      low_max: 33
+      medium_max: 66
+    weights:
+      delinquency_ratio: 0.3
+      coverage_ratio: 0.2
+      liquidity_ratio: 0.15
+      deposit_growth_3m: 0.15
+      equity_assets_ratio: 0.1
+      roa_proxy: 0.1
+    labels:
+      low: Bajo
+      medium: Medio
+      high: Alto
+  lower_panels:
+  - deposits
+  - liquidity
+  - solvency
+  - profitability
+  - signals
+  - risk_contributors
+  - peer_radar
+  - distribution
+  - risk_evolution
+  - methodology
+publication:
+  author: ''
+  source_name: Superintendencia de Economía Popular y Solidaria (SEPS)
+  source_label: Portal Estadístico SEPS
+  independent_analysis: true
+  disclaimer: Este sitio presenta un análisis académico e informativo, de elaboración
+    independiente, basado en información pública de la SEPS. No constituye una calificación
+    oficial de riesgo, una afirmación de insolvencia o default, recomendación financiera,
+    asesoría de inversión ni invitación a retirar o colocar fondos. Los indicadores
+    derivados son cálculos propios y deben interpretarse junto con la metodología,
+    supuestos y limitaciones.
+  academic_use: true
+  academic_notice: ANÁLISIS ACADÉMICO E INFORMATIVO · Elaboración independiente sobre
+    información pública de la SEPS.
+inference:
+  horizons_months:
+  - 6
+  - 12
+  - 18
+  minimum_positive_events: 12
+  minimum_entities: 25
+  anomaly_window_months: 24
+  model_features:
+  - delinquency_ratio
+  - coverage_ratio
+  - liquidity_ratio
+  - deposit_growth_3m
+  - equity_assets_ratio
+  - roa_proxy
+progress:
+  enabled: true
+  show_download_bytes: true
+  show_row_progress: true
+  chunk_rows: 50000
+  live_dashboard_every_sources: 1
+  leave_completed: true
+  resume_skip_completed_closed_periods: true
+  recheck_current_period: true
+  force_recheck_all_sources: false
+  dashboard_auto_reload_seconds: 0
+  discovery_cache_enabled: true
+  discovery_incremental_pages: 3
+  discovery_parallel_workers: 6
+  discovery_full_refresh_days: 30
+  discovery_force_full_scan: false
+migration:
+  enabled: true
+  legacy_sqlite_path: data/operational/seps_segmento1.sqlite
+  runtime_legacy_sqlite: /content/seps-segmento1-risk/seps_segmento1.sqlite
+  runtime_migration_dir: /content/seps-segmento1-risk/migration_009
+  migration_chunk_rows: 100000
+  delete_legacy_sqlite_after_verified_migration: true
+storage:
+  canonical: parquet
+  query_engine: duckdb
+  partitioning:
+  - year
+  - month
+  parquet_compression: zstd
+  persist_duckdb_file: false
+atlas:
+  handoff_filename: LATEST_STATE.zip
+  snapshot_prefix: SEPS_STATE
+  keep_snapshots: 5
+  include_githubpage_shell: true
