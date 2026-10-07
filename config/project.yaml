@@ -1,10 +1,10 @@
 project:
   name: seps-segmento1-risk
-  version: 0.15.0
+  version: 0.16.0
   timezone: America/Guayaquil
 release:
-  update: 15
-  package_prefix: '015'
+  update: 16
+  package_prefix: '016'
 paths:
   parquet: data/parquet
   state: data/state
@@ -54,6 +54,13 @@ dashboard:
   - distribution
   - risk_evolution
   - methodology
+  entity_selector:
+    search_ruc: true
+    search_legal_name: true
+    search_short_name: true
+    search_acronym: true
+    max_results: 14
+    aliases_file: entity_aliases.yaml
 publication:
   author: ''
   source_name: Superintendencia de Economía Popular y Solidaria (SEPS)

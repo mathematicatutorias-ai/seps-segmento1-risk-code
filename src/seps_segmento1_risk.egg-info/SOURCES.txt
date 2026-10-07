@@ -33,6 +33,7 @@ tests/test_dashboard_013_ux.py
 tests/test_dashboard_014_final.py
 tests/test_dashboard_014_ux.py
 tests/test_dashboard_015_kpi_trends.py
+tests/test_dashboard_016_entity_search.py
 tests/test_dashboard_export.py
 tests/test_dashboard_live_bundle.py
 tests/test_discovery.py

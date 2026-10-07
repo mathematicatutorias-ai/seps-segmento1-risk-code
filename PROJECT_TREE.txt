@@ -1,121 +1,126 @@
-seps-segmento1-risk/
-├── atlas
-│   ├── handoff
-│   │   ├── snapshots
-│   │   │   ├── SEPS_STATE_20260921170345.zip
-│   │   │   ├── SEPS_STATE_20260921173751.zip
-│   │   │   ├── SEPS_STATE_20260921173806.zip
-│   │   │   ├── SEPS_STATE_20260921173940.zip
-│   │   │   └── SEPS_STATE_20260921173949.zip
-│   │   └── LATEST_STATE.zip
-│   ├── atlas.html
-│   ├── atlas.json
-│   ├── atlas.sqlite
-│   ├── CODE_ATLAS.json
-│   ├── DATA_LINEAGE_GRAPH.json
-│   ├── DEPENDENCY_GRAPH.json
-│   ├── README.md
-│   ├── RELEASE_MANIFEST.json
-│   └── STATE_MANIFEST.json
-├── config
-│   ├── events.yaml
-│   ├── features.yaml
-│   ├── github.yaml
-│   ├── project.yaml
-│   └── sources.yaml
-├── contracts
-│   ├── 01_fuentes_seps.md
-│   ├── 02_modelo_datos.md
-│   ├── 03_ingestion.md
-│   ├── 04_calidad_datos.md
-│   ├── 05_indicadores_financieros.md
-│   ├── 06_eventos_default.md
-│   ├── 07_publicacion_web.md
-│   ├── 08_atlas_continuidad.md
-│   └── 09_publicacion_github.md
-├── data
-├── githubpage
-│   ├── assets
-│   │   ├── app.css
-│   │   └── app.js
-│   ├── data
-│   │   └── .gitkeep
-│   └── index.html
-├── notebooks
-│   ├── jobs
-│   │   └── 002_inspeccion_cruda_base_y_morosidad.ipynb
-│   └── README.md
-├── scripts
-│   ├── 00_master.py
-│   ├── 01_init_database.py
-│   ├── 10_run_qa.py
-│   ├── 20_build_features.py
-│   ├── 30_build_signals.py
-│   ├── 31_import_events.py
-│   ├── 80_export_dashboard.py
-│   ├── 90_build_atlas.py
-│   └── 95_publish_github.py
-├── sql
-│   ├── indexes.sql
-│   └── schema.sql
-├── src
-│   └── sepsrisk
-│       ├── atlas
-│       │   └── build.py
-│       ├── features
-│       │   └── engine.py
-│       ├── inference
-│       │   ├── signals.py
-│       │   └── survival.py
-│       ├── ingestion
-│       │   ├── downloader.py
-│       │   ├── eeff.py
-│       │   └── parser.py
-│       ├── publication
-│       │   ├── __init__.py
-│       │   └── github.py
-│       ├── qa
-│       │   └── core.py
-│       ├── reporting
-│       │   ├── export_dashboard.py
-│       │   └── index_template.html
-│       ├── sources
-│       │   └── discovery.py
-│       ├── storage
-│       │   ├── __init__.py
-│       │   ├── analytics.py
-│       │   ├── parquet_store.py
-│       │   └── state.py
-│       ├── __init__.py
-│       ├── config.py
-│       ├── database.py
-│       ├── pipeline.py
-│       ├── progress.py
-│       └── utils.py
-├── tests
-│   ├── conftest.py
-│   ├── test_academic_disclaimer.py
-│   ├── test_atlas.py
-│   ├── test_dashboard_014_final.py
-│   ├── test_dashboard_014_ux.py
-│   ├── test_dashboard_015_kpi_trends.py
-│   ├── test_dashboard_export.py
-│   ├── test_dashboard_live_bundle.py
-│   ├── test_discovery.py
-│   ├── test_discovery_cache.py
-│   ├── test_downloader.py
-│   ├── test_feature_dependencies.py
-│   ├── test_github_publication_015.py
-│   ├── test_parser.py
-│   ├── test_pipeline_progress_init.py
-│   ├── test_qa.py
-│   ├── test_resume_and_live_html.py
-│   ├── test_risk_index_014.py
-│   └── test_utils.py
-├── .gitignore
-├── CHANGELOG.md
-├── CONTRATO.md
-├── MASTER_SEPS.ipynb
-├── PROJECT_TREE.txt
-├── pyproject.toml
-└── README.md
+.github/workflows/pages.yml
+.gitignore
+CHANGELOG.md
+CONTRATO.md
+MASTER_SEPS.ipynb
+PROJECT_TREE.txt
+README.md
+atlas/CODE_ATLAS.json
+atlas/DATA_LINEAGE_GRAPH.json
+atlas/DEPENDENCY_GRAPH.json
+atlas/README.md
+atlas/RELEASE_MANIFEST.json
+atlas/STATE_MANIFEST.json
+atlas/atlas.html
+atlas/atlas.json
+atlas/atlas.sqlite
+atlas/handoff/LATEST_STATE.zip
+atlas/latest_state.json
+config/entity_aliases.yaml
+config/events.yaml
+config/features.yaml
+config/github.yaml
+config/project.yaml
+config/sources.yaml
+contracts/01_fuentes_seps.md
+contracts/02_modelo_datos.md
+contracts/03_ingestion.md
+contracts/04_calidad_datos.md
+contracts/05_indicadores_financieros.md
+contracts/06_eventos_default.md
+contracts/07_publicacion_web.md
+contracts/08_atlas_continuidad.md
+contracts/09_publicacion_github.md
+githubpage/assets/app.css
+githubpage/assets/app.js
+githubpage/index.html
+notebooks/001_inspeccion_cruda_base_y_morosidad.ipynb
+notebooks/002_inspeccion_cruda_base_y_morosidad.ipynb
+notebooks/README.md
+notebooks/jobs/002_inspeccion_cruda_base_y_morosidad.ipynb
+notebooks/jobs/output/001_inspeccion_cruda/campos_base.csv
+notebooks/jobs/output/001_inspeccion_cruda/describe_raw_eeff.csv
+notebooks/jobs/output/001_inspeccion_cruda/entidades.csv
+notebooks/jobs/output/001_inspeccion_cruda/esquemas_por_particion.csv
+notebooks/jobs/output/001_inspeccion_cruda/inventario_parquet.csv
+notebooks/jobs/output/001_inspeccion_cruda/muestra_20_filas.csv
+notebooks/jobs/output/001_inspeccion_cruda/perfil_campos.csv
+notebooks/jobs/output/002_inspeccion_cruda/campos_base.csv
+notebooks/jobs/output/002_inspeccion_cruda/catalogo_cuentas_global.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_catalogo_14.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_cuentas_npl_por_descripcion.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_cuentas_por_concepto.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_existencia_14_1499.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_serie_cuentas_14.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_series_14_1499.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_todas_las_cuentas_ultimo_corte.csv
+notebooks/jobs/output/002_inspeccion_cruda/cpn_totales_14_por_nivel.csv
+notebooks/jobs/output/002_inspeccion_cruda/describe_raw_eeff.csv
+notebooks/jobs/output/002_inspeccion_cruda/diagnostico.json
+notebooks/jobs/output/002_inspeccion_cruda/entidades.csv
+notebooks/jobs/output/002_inspeccion_cruda/esquemas_por_particion.csv
+notebooks/jobs/output/002_inspeccion_cruda/inventario_parquet.csv
+notebooks/jobs/output/002_inspeccion_cruda/muestra_20_filas.csv
+notebooks/jobs/output/002_inspeccion_cruda/perfil_campos.csv
+pyproject.toml
+scripts/00_master.py
+scripts/01_init_database.py
+scripts/10_run_qa.py
+scripts/20_build_features.py
+scripts/30_build_signals.py
+scripts/31_import_events.py
+scripts/80_export_dashboard.py
+scripts/90_build_atlas.py
+scripts/95_publish_github.py
+sql/indexes.sql
+sql/schema.sql
+src/seps_segmento1_risk.egg-info/PKG-INFO
+src/seps_segmento1_risk.egg-info/SOURCES.txt
+src/seps_segmento1_risk.egg-info/dependency_links.txt
+src/seps_segmento1_risk.egg-info/requires.txt
+src/seps_segmento1_risk.egg-info/top_level.txt
+src/sepsrisk/__init__.py
+src/sepsrisk/atlas/build.py
+src/sepsrisk/config.py
+src/sepsrisk/database.py
+src/sepsrisk/features/engine.py
+src/sepsrisk/inference/signals.py
+src/sepsrisk/inference/survival.py
+src/sepsrisk/ingestion/downloader.py
+src/sepsrisk/ingestion/eeff.py
+src/sepsrisk/ingestion/parser.py
+src/sepsrisk/pipeline.py
+src/sepsrisk/progress.py
+src/sepsrisk/publication/__init__.py
+src/sepsrisk/publication/github.py
+src/sepsrisk/qa/core.py
+src/sepsrisk/reporting/export_dashboard.py
+src/sepsrisk/reporting/index_template.html
+src/sepsrisk/sources/discovery.py
+src/sepsrisk/storage/__init__.py
+src/sepsrisk/storage/analytics.py
+src/sepsrisk/storage/parquet_store.py
+src/sepsrisk/storage/state.py
+src/sepsrisk/utils.py
+tests/conftest.py
+tests/test_academic_disclaimer.py
+tests/test_atlas.py
+tests/test_dashboard_013_ux.py
+tests/test_dashboard_014_final.py
+tests/test_dashboard_014_ux.py
+tests/test_dashboard_015_kpi_trends.py
+tests/test_dashboard_016_entity_search.py
+tests/test_dashboard_export.py
+tests/test_dashboard_live_bundle.py
+tests/test_discovery.py
+tests/test_discovery_cache.py
+tests/test_downloader.py
+tests/test_feature_dependencies.py
+tests/test_github_publication_015.py
+tests/test_parser.py
+tests/test_pipeline_progress_init.py
+tests/test_qa.py
+tests/test_resume_and_live_html.py
+tests/test_risk_index_013.py
+tests/test_risk_index_014.py
+tests/test_utils.py

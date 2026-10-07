@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:56:25.915025+00:00",
+  "generated_at": "2026-10-07T04:04:36.048310+00:00",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -9,38 +9,44 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "b60c771b215447ba03c5baeda28b8fe34dae82a386bbaaf1143480728999e703",
-      "size": 3956,
+      "sha256": "c31e5fe77d1e2b09afd28a82bf1da60943ad5906198b72ef2cecf1293dda42d1",
+      "size": 4932,
       "kind": "document"
     },
     {
       "path": "CONTRATO.md",
-      "sha256": "2b72cab13956f21dac9b8521a44c98438feb73f67e8e23ce46f584aec9f852e4",
-      "size": 3525,
+      "sha256": "bd1bf4bcb82e07bdea84de546f0c4ee06807dd8da2c8d1a4a151d2a0a5fb1c3f",
+      "size": 4243,
       "kind": "document"
     },
     {
       "path": "MASTER_SEPS.ipynb",
-      "sha256": "3dcd48a7feb2ab64373383162fd302a7487f022ddd7dc671c93ffef6e18d3a97",
-      "size": 18625,
+      "sha256": "95b90a905f3a4130f4691456c970161c5680c6eb201eadcbba5e86cf785058cc",
+      "size": 44260,
       "kind": "document"
     },
     {
       "path": "PROJECT_TREE.txt",
-      "sha256": "9e8d2de277908a69148094a1864f7c8b03d468aa47c7c99c3719a6fb1990c8f5",
-      "size": 4024,
+      "sha256": "19cf0f1ef84d5df653711ab22ca063608fad46188a63c6bc4000429f0088acc8",
+      "size": 4529,
       "kind": "document"
     },
     {
       "path": "README.md",
-      "sha256": "c1a0b0c0f7056b5a838bb4a034e19b8723dbfa9270f2840b0ca151225a87c765",
-      "size": 3589,
+      "sha256": "008592f04c0baa2dce3ec24e7ca5bd3957885377496f51363dd2c4cd51326fad",
+      "size": 11628,
       "kind": "document"
     },
     {
       "path": "atlas/README.md",
       "sha256": "4f86c2d842c8ad944b136d2a50da164a6c00a24d88d3cdab73fb0d4cbf01da14",
       "size": 1477,
+      "kind": "document"
+    },
+    {
+      "path": "config/entity_aliases.yaml",
+      "sha256": "7c1aad02f870786c8cf32d28f61a3258de15d1a07647a0907efea440ff7b7f31",
+      "size": 258,
       "kind": "document"
     },
     {
@@ -63,8 +69,8 @@
     },
     {
       "path": "config/project.yaml",
-      "sha256": "bd33215a063ae39c708c6c35ab0ce3f2768536bd2b20d6575a85a53d29dced0a",
-      "size": 3301,
+      "sha256": "5ef13df79da95b974bc544c52d6b32431a4ce05cead3bb23b5c1dfacf02e875d",
+      "size": 3480,
       "kind": "document"
     },
     {
@@ -129,20 +135,20 @@
     },
     {
       "path": "githubpage/assets/app.css",
-      "sha256": "15c59a03631468856eda41f454e53e4e2e8615ec603187c4c5a3afb5e21f04f2",
-      "size": 11448,
+      "sha256": "3971a2e7e99618bc8ee5fdb319f631908b7609adaaa33b2644f6da93500deb6c",
+      "size": 13479,
       "kind": "code"
     },
     {
       "path": "githubpage/assets/app.js",
-      "sha256": "c98a3ab7907e56665698493da4d2a4627114ad1d767ddd4432a2b632892aa94a",
-      "size": 35233,
+      "sha256": "53562d40f95484c6d170a73761dae50435197886c1c5ad9fc14ee0c204580bcd",
+      "size": 40216,
       "kind": "code"
     },
     {
       "path": "githubpage/index.html",
-      "sha256": "231ede5e4a6facec621e7c73a60a8154a93bae7d12ca9d1a33327bdd4855d0b9",
-      "size": 10829,
+      "sha256": "c308cbd032cf3e78f09d3c2d1b56a56d55f09f8cacca47a7cdc7496fbe0a963c",
+      "size": 11376,
       "kind": "code"
     },
     {
@@ -177,7 +183,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "e5d67968a0de67a3aa180ede99af4cc8794ea2c4d76c70be01272d2ea4a04be7",
+      "sha256": "4cbf1309cfd1ed11328d86b0713e9ace9b6f7c230c9302a59b87f3f6d289a8d6",
       "size": 462,
       "kind": "document"
     },
@@ -249,8 +255,8 @@
     },
     {
       "path": "src/seps_segmento1_risk.egg-info/SOURCES.txt",
-      "sha256": "9802a459c9d17b25df16e0b90d10741373c31d344ee12daeff71fc7b535df122",
-      "size": 1536,
+      "sha256": "ad8d68819471a61d3532d3bb57bbacecc74a979532377806c75e3879e7b05836",
+      "size": 1578,
       "kind": "document"
     },
     {
@@ -273,7 +279,7 @@
     },
     {
       "path": "src/sepsrisk/__init__.py",
-      "sha256": "a9b8b5c4624c6173284e20617f9df9ce7eec99e075c84b49a5b1b4a1ea46fffc",
+      "sha256": "2b8c93528b91e04d20f61015c433afc462ab4868d6b18df743e2c8fb423edd35",
       "size": 21,
       "kind": "code"
     },
@@ -363,14 +369,14 @@
     },
     {
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "sha256": "784be5199c143b6d5f965730b75e667fab9ef460eb2bd2d5846ad50b271bde87",
-      "size": 11740,
+      "sha256": "938309ccef43b43820768cff65e7e3a535ab85c8f4b2c5923d53eccfc863f12d",
+      "size": 13171,
       "kind": "code"
     },
     {
       "path": "src/sepsrisk/reporting/index_template.html",
-      "sha256": "606f01aba6fc8bb79fa00338b673a11be31cca620373b748b8414c9362c19551",
-      "size": 10146,
+      "sha256": "460a3a0572473aa1a6ae75124720857c15c470b54193437a99a9a90c88c5ef62",
+      "size": 10693,
       "kind": "code"
     },
     {
@@ -429,8 +435,8 @@
     },
     {
       "path": "tests/test_dashboard_013_ux.py",
-      "sha256": "5bfe956933666e2888ddc28cfd21782de27ce115203c6f679e369ec5735b5dbc",
-      "size": 994,
+      "sha256": "2518304045e218cdfd00cd092edfb17537cec6deb2fd98a9707404a428cdeeaa",
+      "size": 1089,
       "kind": "code"
     },
     {
@@ -449,6 +455,12 @@
       "path": "tests/test_dashboard_015_kpi_trends.py",
       "sha256": "6d310b3e4fc98a142050b8a3b0613d69fe6d9f9fc0e9e421156e91e8269f6c41",
       "size": 1053,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_016_entity_search.py",
+      "sha256": "225184ad3de88b89acff042719b60fa3476875302113062c725f52b209f8e56b",
+      "size": 1789,
       "kind": "code"
     },
     {
@@ -1042,60 +1054,74 @@
       "lineno": 25
     },
     {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_entity_display_name",
+      "kind": "function",
+      "name": "_entity_display_name",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 46
+    },
+    {
+      "id": "function:src/sepsrisk/reporting/export_dashboard.py:_entity_alias_map",
+      "kind": "function",
+      "name": "_entity_alias_map",
+      "path": "src/sepsrisk/reporting/export_dashboard.py",
+      "lineno": 56
+    },
+    {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:_percentiles",
       "kind": "function",
       "name": "_percentiles",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 42
+      "lineno": 73
     },
     {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_benchmarks",
       "kind": "function",
       "name": "_risk_benchmarks",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 55
+      "lineno": 86
     },
     {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_index_frame",
       "kind": "function",
       "name": "_risk_index_frame",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 64
+      "lineno": 95
     },
     {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:_risk_payload_for_entity",
       "kind": "function",
       "name": "_risk_payload_for_entity",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 94
+      "lineno": 125
     },
     {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:_latest_distributions",
       "kind": "function",
       "name": "_latest_distributions",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 129
+      "lineno": 160
     },
     {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:_read_load_status",
       "kind": "function",
       "name": "_read_load_status",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 142
+      "lineno": 173
     },
     {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:rebuild_index",
       "kind": "function",
       "name": "rebuild_index",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 148
+      "lineno": 179
     },
     {
       "id": "function:src/sepsrisk/reporting/export_dashboard.py:export_dashboard",
       "kind": "function",
       "name": "export_dashboard",
       "path": "src/sepsrisk/reporting/export_dashboard.py",
-      "lineno": 164
+      "lineno": 195
     },
     {
       "id": "function:src/sepsrisk/sources/discovery.py:_page_url",
@@ -1431,7 +1457,7 @@
       "kind": "function",
       "name": "test_risk_index_export_is_not_called_probability_when_uncalibrated",
       "path": "tests/test_dashboard_013_ux.py",
-      "lineno": 16
+      "lineno": 17
     },
     {
       "id": "function:tests/test_dashboard_014_final.py:test_014_mathjax_and_methodology_modal",
@@ -1481,6 +1507,34 @@
       "name": "test_semantic_directions_are_encoded",
       "path": "tests/test_dashboard_015_kpi_trends.py",
       "lineno": 15
+    },
+    {
+      "id": "function:tests/test_dashboard_016_entity_search.py:test_016_autocomplete_markup_and_no_legacy_select",
+      "kind": "function",
+      "name": "test_016_autocomplete_markup_and_no_legacy_select",
+      "path": "tests/test_dashboard_016_entity_search.py",
+      "lineno": 7
+    },
+    {
+      "id": "function:tests/test_dashboard_016_entity_search.py:test_016_client_search_supports_ruc_short_name_and_acronym",
+      "kind": "function",
+      "name": "test_016_client_search_supports_ruc_short_name_and_acronym",
+      "path": "tests/test_dashboard_016_entity_search.py",
+      "lineno": 15
+    },
+    {
+      "id": "function:tests/test_dashboard_016_entity_search.py:test_016_alias_config_and_release",
+      "kind": "function",
+      "name": "test_016_alias_config_and_release",
+      "path": "tests/test_dashboard_016_entity_search.py",
+      "lineno": 24
+    },
+    {
+      "id": "function:tests/test_dashboard_016_entity_search.py:test_016_exporter_preserves_legal_name_and_adds_display_fields",
+      "kind": "function",
+      "name": "test_016_exporter_preserves_legal_name_and_adds_display_fields",
+      "path": "tests/test_dashboard_016_entity_search.py",
+      "lineno": 34
     },
     {
       "id": "function:tests/test_dashboard_export.py:test_empty_dashboard_exports_index_files",

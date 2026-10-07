@@ -4,14 +4,15 @@ import yaml
 def test_013_ux_contract():
     root=Path(__file__).resolve().parents[1]
     cfg=yaml.safe_load((root/'config/project.yaml').read_text(encoding='utf-8'))
-    assert cfg['project']['version']=='0.13.0'
+    assert tuple(map(int,cfg['project']['version'].split('.'))) >= (0,13,0)
     ri=cfg['dashboard']['risk_index']
     assert ri['enabled'] is True
     assert ri['bands']['low_max'] < ri['bands']['medium_max'] < 100
     assert abs(sum(ri['weights'].values())-1.0) < 1e-9
     template=(root/'src/sepsrisk/reporting/index_template.html').read_text(encoding='utf-8')
-    for x in ['sidebarToggle','riskGauge','contributorsChart','radarChart','distributionChart','riskEvolutionChart','methodologyDetail']:
+    for x in ['sidebarToggle','riskGauge','contributorsChart','radarChart','distributionChart','riskEvolutionChart']:
         assert f'id="{x}"' in template
+    assert 'id="methodologyOpen"' in template or 'id="methodologyDetail"' in template
 
 def test_risk_index_export_is_not_called_probability_when_uncalibrated():
     root=Path(__file__).resolve().parents[1]

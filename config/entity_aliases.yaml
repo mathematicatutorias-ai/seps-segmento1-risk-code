@@ -1,0 +1,8 @@
+# Alias humanos opcionales para el buscador de entidades.
+# La búsqueda también funciona automáticamente por RUC, nombre legal,
+# nombre corto y sigla generada desde el nombre distintivo.
+aliases:
+  "0190115798001":
+    - JEP
+  "1790866084001":
+    - CPN

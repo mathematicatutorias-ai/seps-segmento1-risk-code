@@ -1,7 +1,5 @@
 # SEPS Segmento 1 Risk
 
-https://mathematicatutorias-ai.github.io/seps-segmento1-risk/
-
 Monitor reproducible de riesgo financiero para cooperativas del **Segmento 1** del sistema financiero popular y solidario de Ecuador, construido a partir de información pública de la **Superintendencia de Economía Popular y Solidaria (SEPS)**.
 
 El proyecto descarga e integra los estados financieros mensuales publicados por la SEPS, construye indicadores comparables entre entidades, genera series temporales y señales de deterioro, y publica un **dashboard HTML estático** listo para GitHub Pages.
@@ -168,21 +166,41 @@ Entre los principales:
 
 ### Morosidad
 
-$$\mathrm{Morosidad}=\frac{\mathrm{Cartera\ improductiva}}{\mathrm{Cartera\ bruta}}$$
+\[
+\mathrm{Morosidad}
+=
+\frac{\mathrm{Cartera\ improductiva}}
+{\mathrm{Cartera\ bruta}}
+\]
 
 La composición de cartera improductiva contempla el cambio del catálogo contable ocurrido desde mayo de 2021.
 
 ### Cobertura
 
-$$\mathrm{Cobertura}=\frac{|\mathrm{Provisiones}|}{\mathrm{Cartera\ improductiva}}$$
+\[
+\mathrm{Cobertura}
+=
+\frac{|\mathrm{Provisiones}|}
+{\mathrm{Cartera\ improductiva}}
+\]
 
 ### Liquidez
 
-$$\mathrm{Liquidez}=\frac{\mathrm{Fondos\ disponibles}}{\mathrm{Depósitos\ de\ corto\ plazo}}$$
+\[
+\mathrm{Liquidez}
+=
+\frac{\mathrm{Fondos\ disponibles}}
+{\mathrm{Depósitos\ de\ corto\ plazo}}
+\]
 
 ### Capitalización
 
-$$\mathrm{Patrimonio/Activos}=\frac{\mathrm{Patrimonio}}{\mathrm{Activos}}$$
+\[
+\mathrm{Patrimonio/Activos}
+=
+\frac{\mathrm{Patrimonio}}
+{\mathrm{Activos}}
+\]
 
 ### Crecimiento de depósitos
 
@@ -192,7 +210,12 @@ Variaciones de depósitos a 3 y 12 meses.
 
 Se utiliza un proxy contable de ROA:
 
-$$\mathrm{ROA}=\frac{\mathrm{Ingresos}-\mathrm{Gastos}}{\mathrm{Activos}}$$
+\[
+\mathrm{ROA}
+=
+\frac{\mathrm{Ingresos}-\mathrm{Gastos}}
+{\mathrm{Activos}}
+\]
 
 Las fórmulas operativas y cuentas utilizadas se encuentran en:
 
@@ -269,7 +292,7 @@ githubpage/
 
 La interfaz incluye:
 
-- selector de cooperativa;
+- buscador/autocompletado de entidad por nombre corto, nombre legal, sigla o RUC;
 - selector de período;
 - agregación mensual, trimestral, semestral y anual;
 - líneas y velas OHLC;
@@ -356,6 +379,10 @@ Define:
 - migración;
 - Atlas;
 - publicación.
+
+## `config/entity_aliases.yaml`
+
+Permite añadir alias humanos opcionales para el buscador (por ejemplo `JEP` o `CPN`) sin modificar código. El buscador también genera siglas automáticamente y siempre permite buscar por RUC.
 
 ## `config/sources.yaml`
 

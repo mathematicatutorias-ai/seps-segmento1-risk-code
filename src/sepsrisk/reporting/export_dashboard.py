@@ -39,6 +39,37 @@ DIRECTIONS={
 }
 
 
+_COAC_PREFIX=re.compile(r'^\s*COOPERATIVA\s+DE\s+AHORRO\s+Y\s+CREDITO\s+',re.I)
+_MUTUALISTA_PREFIX=re.compile(r'^\s*ASOCIACION\s+MUTUALISTA\s+DE\s+AHORRO\s+Y\s+CREDITO\s+PARA\s+LA\s+VIVIENDA\s+',re.I)
+
+
+def _entity_display_name(name):
+    """Compact legal boilerplate for UI while preserving the legal name separately."""
+    n=' '.join(str(name or '').split())
+    if _COAC_PREFIX.search(n):
+        return _COAC_PREFIX.sub('COAC ',n).strip()
+    if _MUTUALISTA_PREFIX.search(n):
+        return _MUTUALISTA_PREFIX.sub('MUTUALISTA ',n).strip()
+    return n
+
+
+def _entity_alias_map(root,cfg):
+    fname=(cfg.get('dashboard',{}).get('entity_selector',{}) or {}).get('aliases_file','entity_aliases.yaml')
+    path=Path(root)/'config'/str(fname)
+    if not path.exists():
+        return {}
+    try:
+        raw=load_yaml(str(fname),root) or {}
+    except Exception:
+        return {}
+    aliases=raw.get('aliases',raw) if isinstance(raw,dict) else {}
+    out={}
+    for k,v in (aliases or {}).items():
+        vals=v if isinstance(v,list) else [v]
+        out[str(k)]=[str(x).strip() for x in vals if str(x).strip()]
+    return out
+
+
 def _percentiles(features,ruc):
     if features.empty:return {}
     target=features[features.ruc==ruc].sort_values('cutoff_date').groupby('feature').tail(1)
@@ -168,6 +199,7 @@ def export_dashboard(con,root=None):
     entities=query_df(con,'SELECT ruc,entity_name,first_seen,last_seen FROM dim_entity ORDER BY entity_name')
     default=resolve_focus_entity(con,root);inf=readiness(con,root);pub=cfg.get('publication',{});generated=utcnow()
     risk_cfg=cfg.get('dashboard',{}).get('risk_index',{})
+    aliases=_entity_alias_map(root,cfg)
     meta={
       'mode':'live' if not entities.empty else 'empty','generated_at':generated,
       'title':cfg['dashboard']['title'],'subtitle':cfg['dashboard']['subtitle'],
@@ -175,10 +207,16 @@ def export_dashboard(con,root=None):
       'segment':cfg['universe']['segment'],'inference':inf,'publication':pub,
       'focus_display_name':cfg.get('focus_entity',{}).get('display_name'),
       'risk_index':risk_cfg,
+      'entity_selector':cfg.get('dashboard',{}).get('entity_selector',{}),
+      'entity_aliases':aliases,
       'dashboard_defaults':{k:cfg['dashboard'].get(k) for k in ['default_period','default_aggregation','default_visualization']}
     }
     _atomic_write(out/'metadata.json',json.dumps(meta,ensure_ascii=False,indent=2))
-    entity_rows=_records(entities);_atomic_write(out/'entities.json',json.dumps(entity_rows,ensure_ascii=False,indent=2))
+    entity_rows=_records(entities)
+    for e in entity_rows:
+        e['display_name']=_entity_display_name(e.get('entity_name'))
+        e['aliases']=aliases.get(str(e.get('ruc')),[])
+    _atomic_write(out/'entities.json',json.dumps(entity_rows,ensure_ascii=False,indent=2))
     p=query_df(con,'SELECT * FROM fact_peer_stat ORDER BY cutoff_date,feature')
     peers={}
     if not p.empty:

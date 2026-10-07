@@ -1,3 +1,13 @@
+# 0.16.0 · Update 016
+
+- El selector de entidad pasa de `<select>` a buscador/autocompletado estático y accesible.
+- Búsqueda por RUC, nombre legal completo, nombre corto, sigla generada y alias configurables.
+- Nombres compactos en UI: `COOPERATIVA DE AHORRO Y CREDITO ...` → `COAC ...`; `ASOCIACION MUTUALISTA DE AHORRO Y CREDITO PARA LA VIVIENDA ...` → `MUTUALISTA ...`.
+- Navegación de resultados con teclado (↑/↓, Enter, Escape), clic y filtro en tiempo real.
+- `config/entity_aliases.yaml` permite registrar nombres comerciales/siglas sin hardcodear lógica.
+- `JEP` y `CPN` quedan como aliases de configuración; las siglas simples se generan también automáticamente.
+- La entidad seleccionada sigue identificándose internamente por RUC; los nombres legales no se alteran en la base.
+- El MASTER conserva discovery incremental: al ejecutarlo vuelve a revisar el año corriente y reconstruye el dashboard si la SEPS publicó nuevos cortes o correcciones.
 
 # 0.15.0 · Update 015
 

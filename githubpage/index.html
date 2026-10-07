@@ -38,7 +38,15 @@ window.MathJax={
     <header class="topbar">
       <div class="titlebox"><h1 id="title">CPN · Monitor de Riesgo Financiero</h1><p id="subtitle"></p></div>
       <div class="controls">
-        <label class="entity-control">Entidad<select id="entitySelect"></select></label>
+        <label class="entity-control">Entidad
+          <div id="entityCombobox" class="entity-combobox">
+            <input id="entitySearch" class="entity-search" type="text" autocomplete="off" spellcheck="false"
+              role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="entityResults"
+              placeholder="Buscar por nombre, sigla o RUC">
+            <button id="entityToggle" class="entity-toggle" type="button" tabindex="-1" aria-label="Mostrar entidades">⌄</button>
+            <div id="entityResults" class="entity-results hidden" role="listbox"></div>
+          </div>
+        </label>
         <label>Periodo<select id="period"><option value="12">1 año</option><option value="36">3 años</option><option value="60">5 años</option><option value="all" selected>Todo</option></select></label>
         <label>Agregación<select id="agg"><option value="monthly">Mensual</option><option value="quarterly" selected>Trimestral</option><option value="semiannual">Semestral</option><option value="annual">Anual</option></select></label>
         <label>Visual<select id="viz"><option value="line">Línea</option><option value="candles" selected>Velas</option></select></label>
@@ -102,8 +110,8 @@ window.MathJax={
     <div id="methodologyModalContent" class="methodology-modal-content"></div>
   </section>
 </div>
-<script>window.SEPS_BUILD_INFO={"phase":"complete","updated_at":"2026-09-21T17:54:26.949425+00:00","sources_completed":10,"sources_total":10,"current_source":null,"inserted":0,"updated":0,"unchanged":0,"resume_skipped":8,"sha_skipped":0,"backend":"parquet+duckdb","partitions":104,"rows_manifest":5622471,"first_period":"2018-01","last_period":"2026-08","sources":9,"path":"/content/drive/MyDrive/seps-segmento1-risk/data/parquet/eeff","first_cutoff":"2018-01-31","last_cutoff":"2026-08-31","fact_rows":5622471,"entities":52,"generated_at":"2026-09-21T17:54:30.222435+00:00","dashboard_mode":"live","entity_count":52,"default_ruc":"1790866084001","build_id":"0260921T1754302224350000","auto_reload_seconds":0};</script>
-<script src="data/live_bundle.js?v=0260921T1754302224350000"></script>
-<script src="data/load_status.js?v=0260921T1754302224350000"></script>
-<script src="assets/app.js?v=015"></script>
+<script>window.SEPS_BUILD_INFO={"phase":"complete","updated_at":"2026-10-07T04:03:07.192305+00:00","sources_completed":10,"sources_total":10,"current_source":null,"inserted":0,"updated":0,"unchanged":0,"resume_skipped":8,"sha_skipped":1,"backend":"parquet+duckdb","partitions":104,"rows_manifest":5622471,"first_period":"2018-01","last_period":"2026-08","sources":9,"path":"/content/drive/MyDrive/seps-segmento1-risk/data/parquet/eeff","first_cutoff":"2018-01-31","last_cutoff":"2026-08-31","fact_rows":5622471,"entities":52,"generated_at":"2026-10-07T04:03:10.048348+00:00","dashboard_mode":"live","entity_count":52,"default_ruc":"1790866084001","build_id":"0261007T0403100483480000","auto_reload_seconds":0};</script>
+<script src="data/live_bundle.js?v=0261007T0403100483480000"></script>
+<script src="data/load_status.js?v=0261007T0403100483480000"></script>
+<script src="assets/app.js?v=016"></script>
 </body></html>

@@ -58,3 +58,14 @@ Atlas registra código, configuración, lineage, manifiestos y estado; nunca inc
 
 ## Update 015 · KPI temporales y publicación GitHub
 Las tarjetas resumen comparan el último valor con el cierre del período anterior según la agregación seleccionada. La publicación del código usa `config/github.yaml`, excluye datos operativos y requiere el Secret `GITHUB_TOKEN` en Colab.
+
+
+## Contrato UX de entidades · Update 016
+
+- La identidad canónica de cada entidad es el **RUC**. El nombre mostrado nunca sustituye ni modifica esa clave.
+- El dashboard debe permitir búsqueda por RUC, nombre legal, nombre corto, sigla y alias configurables.
+- El nombre legal completo se conserva en datos y subtítulos; la UI puede abreviar únicamente el boilerplate institucional:
+  - `COOPERATIVA DE AHORRO Y CREDITO` → `COAC`
+  - `ASOCIACION MUTUALISTA DE AHORRO Y CREDITO PARA LA VIVIENDA` → `MUTUALISTA`
+- Los alias humanos viven en `config/entity_aliases.yaml`; no se codifican dentro del JavaScript o Python.
+- El selector debe seguir siendo 100 % estático y funcionar en GitHub Pages sin backend.
