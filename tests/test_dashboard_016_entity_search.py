@@ -24,8 +24,8 @@ def test_016_client_search_supports_ruc_short_name_and_acronym():
 def test_016_alias_config_and_release():
     cfg=yaml.safe_load((ROOT/'config/project.yaml').read_text(encoding='utf-8'))
     aliases=yaml.safe_load((ROOT/'config/entity_aliases.yaml').read_text(encoding='utf-8'))
-    assert int(cfg['release']['update']) == 16
-    assert cfg['project']['version'] == '0.16.0'
+    assert int(cfg['release']['update']) >= 16
+    assert tuple(map(int,cfg['project']['version'].split('.'))) >= (0,16,0)
     assert cfg['dashboard']['entity_selector']['search_ruc'] is True
     assert '0190115798001' in aliases['aliases']
     assert 'JEP' in aliases['aliases']['0190115798001']

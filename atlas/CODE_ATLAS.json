@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T04:04:36.048310+00:00",
+  "generated_at": "2026-10-07T04:37:12.260799+00:00",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -9,20 +9,20 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "c31e5fe77d1e2b09afd28a82bf1da60943ad5906198b72ef2cecf1293dda42d1",
-      "size": 4932,
+      "sha256": "04aadedd31536a4804799d26a83a6b425da202eb8eeb242338f0a4b068ad1b68",
+      "size": 5778,
       "kind": "document"
     },
     {
       "path": "CONTRATO.md",
-      "sha256": "bd1bf4bcb82e07bdea84de546f0c4ee06807dd8da2c8d1a4a151d2a0a5fb1c3f",
-      "size": 4243,
+      "sha256": "e364b883143c8837b130ee81b12f3b4e5e98423b990d412340d1ab519c5588b9",
+      "size": 4520,
       "kind": "document"
     },
     {
       "path": "MASTER_SEPS.ipynb",
-      "sha256": "95b90a905f3a4130f4691456c970161c5680c6eb201eadcbba5e86cf785058cc",
-      "size": 44260,
+      "sha256": "0c55f32a74132610c9ca8472a4d0abec8025e42626e74b1b8ff98c18605852f9",
+      "size": 44331,
       "kind": "document"
     },
     {
@@ -69,8 +69,8 @@
     },
     {
       "path": "config/project.yaml",
-      "sha256": "5ef13df79da95b974bc544c52d6b32431a4ce05cead3bb23b5c1dfacf02e875d",
-      "size": 3480,
+      "sha256": "70187acdfad0ec6ce652323d95a78ff8defe47535a82b33916dbd9681c82f273",
+      "size": 3479,
       "kind": "document"
     },
     {
@@ -135,20 +135,20 @@
     },
     {
       "path": "githubpage/assets/app.css",
-      "sha256": "3971a2e7e99618bc8ee5fdb319f631908b7609adaaa33b2644f6da93500deb6c",
-      "size": 13479,
+      "sha256": "60d4197f71ef874095dbb5ae4f943fa6a911235513338f2e7aa8b92ab318ca70",
+      "size": 14581,
       "kind": "code"
     },
     {
       "path": "githubpage/assets/app.js",
-      "sha256": "53562d40f95484c6d170a73761dae50435197886c1c5ad9fc14ee0c204580bcd",
-      "size": 40216,
+      "sha256": "f09c57756354ec2e2d2b8c74a4122740a5e1bea58ba873bdb0177bdab4974565",
+      "size": 40462,
       "kind": "code"
     },
     {
       "path": "githubpage/index.html",
-      "sha256": "c308cbd032cf3e78f09d3c2d1b56a56d55f09f8cacca47a7cdc7496fbe0a963c",
-      "size": 11376,
+      "sha256": "8f631b4eeade40b47ad08ae73e9d51175c34a297b1384bfea11b989badf00621",
+      "size": 11366,
       "kind": "code"
     },
     {
@@ -183,7 +183,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "4cbf1309cfd1ed11328d86b0713e9ace9b6f7c230c9302a59b87f3f6d289a8d6",
+      "sha256": "ed616217027c5e0801f06967f5171a21fa77cf51da05d33462352fe2c3e10b50",
       "size": 462,
       "kind": "document"
     },
@@ -255,8 +255,8 @@
     },
     {
       "path": "src/seps_segmento1_risk.egg-info/SOURCES.txt",
-      "sha256": "ad8d68819471a61d3532d3bb57bbacecc74a979532377806c75e3879e7b05836",
-      "size": 1578,
+      "sha256": "4c8f2d335c10370546490934a5e85449ce68cec67edc99801407b4e701574571",
+      "size": 1622,
       "kind": "document"
     },
     {
@@ -279,7 +279,7 @@
     },
     {
       "path": "src/sepsrisk/__init__.py",
-      "sha256": "2b8c93528b91e04d20f61015c433afc462ab4868d6b18df743e2c8fb423edd35",
+      "sha256": "d599f29bc71bce8c9ee79969e4d687d7e1c5cd48e702707fa041096c0e739e0e",
       "size": 21,
       "kind": "code"
     },
@@ -375,8 +375,8 @@
     },
     {
       "path": "src/sepsrisk/reporting/index_template.html",
-      "sha256": "460a3a0572473aa1a6ae75124720857c15c470b54193437a99a9a90c88c5ef62",
-      "size": 10693,
+      "sha256": "0891619e26aec0cbfdfb4b4feb3e9e651b662a160d539a725b306f668e62dc62",
+      "size": 10683,
       "kind": "code"
     },
     {
@@ -459,8 +459,14 @@
     },
     {
       "path": "tests/test_dashboard_016_entity_search.py",
-      "sha256": "225184ad3de88b89acff042719b60fa3476875302113062c725f52b209f8e56b",
-      "size": 1789,
+      "sha256": "22fd377e6397be22097e6bfe779d1858c342ae8cf3c8d6dbc9be1b4931c0b1a7",
+      "size": 1816,
+      "kind": "code"
+    },
+    {
+      "path": "tests/test_dashboard_017_selector_header.py",
+      "sha256": "e498d81a1c529811df0db011e22366c92eddb3faa9b2de4fadea7cec84219c06",
+      "size": 1205,
       "kind": "code"
     },
     {
@@ -1535,6 +1541,27 @@
       "name": "test_016_exporter_preserves_legal_name_and_adds_display_fields",
       "path": "tests/test_dashboard_016_entity_search.py",
       "lineno": 34
+    },
+    {
+      "id": "function:tests/test_dashboard_017_selector_header.py:test_017_lists_full_entity_universe_without_slice_cap",
+      "kind": "function",
+      "name": "test_017_lists_full_entity_universe_without_slice_cap",
+      "path": "tests/test_dashboard_017_selector_header.py",
+      "lineno": 5
+    },
+    {
+      "id": "function:tests/test_dashboard_017_selector_header.py:test_017_header_and_caret_are_homogeneous",
+      "kind": "function",
+      "name": "test_017_header_and_caret_are_homogeneous",
+      "path": "tests/test_dashboard_017_selector_header.py",
+      "lineno": 11
+    },
+    {
+      "id": "function:tests/test_dashboard_017_selector_header.py:test_017_release_config",
+      "kind": "function",
+      "name": "test_017_release_config",
+      "path": "tests/test_dashboard_017_selector_header.py",
+      "lineno": 21
     },
     {
       "id": "function:tests/test_dashboard_export.py:test_empty_dashboard_exports_index_files",

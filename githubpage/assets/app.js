@@ -62,20 +62,22 @@ function enrichEntity(e){
   let display=e.display_name||shortEntityName(e.entity_name),aliases=entityAliases(e);
   return {...e,display_name:display,aliases,search_blob:normalizeEntitySearch([e.ruc,e.entity_name,display,...aliases].join(' '))};
 }
-function buildEntitySelector(){ENTITY_INDEX=ENTITIES.map(enrichEntity);renderEntityResults('')}
+function buildEntitySelector(){ENTITY_INDEX=ENTITIES.map(enrichEntity).sort((a,b)=>(a.display_name||'').localeCompare(b.display_name||'','es',{sensitivity:'base'}));renderEntityResults('')}
 function entityByRuc(ruc){return ENTITY_INDEX.find(e=>String(e.ruc)===String(ruc))||ENTITIES.find(e=>String(e.ruc)===String(ruc))||null}
 function setEntitySelectorValue(ruc){CURRENT_RUC=String(ruc??'');let e=entityByRuc(CURRENT_RUC);if($('entitySearch'))$('entitySearch').value=e?.display_name||e?.entity_name||''}
 function filterEntities(q){
   let term=normalizeEntitySearch(q),rows=ENTITY_INDEX;
   if(term)rows=rows.filter(e=>e.search_blob.includes(term));
-  let max=Number(META.entity_selector?.max_results||14);
-  return rows.slice(0,Math.max(5,max));
+  // 017: no artificial cap. Empty search lists every entity available in the bundle;
+  // typed search filters that full universe by RUC/name/alias/acronym.
+  return rows;
 }
 function renderEntityResults(q){
   let box=$('entityResults');if(!box)return;let rows=filterEntities(q);ENTITY_ACTIVE=rows.length?0:-1;
   box.innerHTML=rows.length?rows.map((e,i)=>{
     let alias=e.aliases?.length?`<span class="entity-alias">${esc(e.aliases[0])}</span>`:'';
-    return `<button type="button" class="entity-result${i===ENTITY_ACTIVE?' active':''}" role="option" aria-selected="${i===ENTITY_ACTIVE?'true':'false'}" data-ruc="${esc(e.ruc)}"><span class="entity-result-main"><strong>${esc(e.display_name)}</strong>${alias}</span><span class="entity-result-meta">RUC ${esc(e.ruc)}</span><small>${esc(e.entity_name)}</small></button>`
+    let last=e.last_seen?` · corte ${esc(String(e.last_seen).slice(0,10))}`:'';
+    return `<button type="button" class="entity-result${i===ENTITY_ACTIVE?' active':''}" role="option" aria-selected="${i===ENTITY_ACTIVE?'true':'false'}" data-ruc="${esc(e.ruc)}"><span class="entity-result-main"><strong>${esc(e.display_name)}</strong>${alias}</span><span class="entity-result-meta">RUC ${esc(e.ruc)}${last}</span><small>${esc(e.entity_name)}</small></button>`
   }).join(''):`<div class="entity-no-results">Sin coincidencias. Busca por nombre, sigla o RUC.</div>`;
   box.querySelectorAll('.entity-result').forEach(x=>x.onclick=()=>selectEntity(x.dataset.ruc));
 }
@@ -141,7 +143,7 @@ function riskScoreForRow(row){if(!row)return null;let h=Number($('horizon')?.val
 function renderKpiTrends(a,z,R){let prev=previousPeriodRow(a);setTrend('trendMora',z.delinquency_ratio,prev?.delinquency_ratio,'lower');setTrend('trendCoverage',z.coverage_ratio,prev?.coverage_ratio,'higher');setTrend('trendLiquidity',z.liquidity_ratio,prev?.liquidity_ratio,'higher');setTrend('trendDeposits',z.deposit_growth_3m,prev?.deposit_growth_3m,'higher');setTrend('trendEquity',z.equity_assets_ratio,prev?.equity_assets_ratio,'higher');setTrend('trendRisk',R?.score,riskScoreForRow(prev),'lower','score')}
 function currentRisk(z){let h=Number($('horizon').value),r=riskAt(h,z.cutoff_date);if(r&&r.probability!=null&&Number.isFinite(Number(r.probability)))return{mode:'probability',score:100*Number(r.probability),label:'Probabilidad estimada',detail:`evento adverso · ${h}m`,record:r};let raw=D.risk_index?.current;if(raw!=null&&raw!==''&&Number.isFinite(Number(raw))){let score=Number(raw);CURRENT_RISK_SNAPSHOT={score,contributors:D.risk_index?.contributors||[],components:(D.risk_index?.contributors||[]).length,weight_coverage:null};return{mode:'index',score,label:'Índice de riesgo relativo',detail:'0–100 · no es probabilidad',record:null}}let snap=computeRiskSnapshot(z);CURRENT_RISK_SNAPSHOT=snap;if(snap)return{mode:'index',score:snap.score,label:'Índice de riesgo relativo',detail:'0–100 · no es probabilidad',record:null};return{mode:'none',score:null,label:'Índice de riesgo',detail:'sin datos',record:null}}
 
-function render(){let a=A(),z=a.at(-1)||{},short=entityDisplayName();$('title').textContent=`${short} · Monitor de Riesgo Financiero`;$('subtitle').textContent=`${D.entity?.entity_name||''} · ${META.subtitle||'Información pública SEPS · Segmento 1'}`;$('cutoffSide').textContent=z.cutoff_date||'—';$('cutoffTop').textContent=z.cutoff_date||'—';$('footerCutoff').textContent=z.cutoff_date||'—';$('kpiMora').textContent=pct(z.delinquency_ratio);$('kpiCoverage').textContent=pct(z.coverage_ratio);$('kpiLiquidity').textContent=pct(z.liquidity_ratio);$('kpiDeposits').textContent=pct(z.deposit_growth_3m);$('kpiEquity').textContent=pct(z.equity_assets_ratio);
+function render(){let a=A(),z=a.at(-1)||{},short=entityDisplayName();$('title').textContent='MONITOR DE RIESGO FINANCIERO';$('subtitle').textContent=`${D.entity?.entity_name||''} · ${META.subtitle||'Información pública SEPS · Segmento 1'}`;$('cutoffSide').textContent=z.cutoff_date||'—';$('cutoffTop').textContent=z.cutoff_date||'—';$('footerCutoff').textContent=z.cutoff_date||'—';$('kpiMora').textContent=pct(z.delinquency_ratio);$('kpiCoverage').textContent=pct(z.coverage_ratio);$('kpiLiquidity').textContent=pct(z.liquidity_ratio);$('kpiDeposits').textContent=pct(z.deposit_growth_3m);$('kpiEquity').textContent=pct(z.equity_assets_ratio);
  let R=currentRisk(z);$('riskKpiLabel').textContent=R.label;$('kpiInference').textContent=R.score==null?'—':R.mode==='probability'?R.score.toFixed(1)+'%':Math.round(R.score)+'/100';$('inferenceNote').textContent=R.score==null?'sin estimación':`${riskLabel(R.score)} · ${R.detail}`;renderKpiTrends(a,z,R);
  let f=$('mainMetric').value,m=METRICS[f]||{label:FEATURE_LABELS[f]||f,subtitle:'Entidad vs Segmento 1',fmt:'.1%'};$('mainTitle').textContent=`${m.label} · entidad vs Segmento 1`;$('mainSubtitle').textContent=`${m.subtitle}. Mensual = línea; periodos agregados = OHLC.`;Plotly.react('mainChart',metricTraces(a,f,short),lay(m.fmt),{displayModeBar:false,responsive:true});
  plotMetric('depositsChart',a,'deposits_total',short,',.3s');plotMetric('liquidityChart',a,'liquidity_ratio',short,'.1%');plotMetric('equityChart',a,'equity_assets_ratio',short,'.1%');plotMetric('roaChart',a,'roa_proxy',short,'.1%');

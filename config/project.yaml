@@ -1,10 +1,10 @@
 project:
   name: seps-segmento1-risk
-  version: 0.16.0
+  version: 0.17.0
   timezone: America/Guayaquil
 release:
-  update: 16
-  package_prefix: '016'
+  update: 17
+  package_prefix: '017'
 paths:
   parquet: data/parquet
   state: data/state
@@ -59,7 +59,7 @@ dashboard:
     search_legal_name: true
     search_short_name: true
     search_acronym: true
-    max_results: 14
+    max_results: 0
     aliases_file: entity_aliases.yaml
 publication:
   author: ''

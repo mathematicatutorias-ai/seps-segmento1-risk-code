@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-07T03:58:20.318898+00:00",
+  "started_at": "2026-10-07T04:26:55.775973+00:00",
   "backend": "parquet+duckdb",
   "sources_checked": 10,
   "sources_discovered": 10,
@@ -19,13 +19,6 @@
     "diagnostics": [
       {
         "source_key": "eeff_monthly",
-        "page": 1,
-        "url": "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/",
-        "ok": true,
-        "matches": 0
-      },
-      {
-        "source_key": "eeff_monthly",
         "page": 2,
         "url": "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/page/2/",
         "ok": true,
@@ -37,6 +30,13 @@
         "url": "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/page/3/",
         "ok": true,
         "matches": 1
+      },
+      {
+        "source_key": "eeff_monthly",
+        "page": 1,
+        "url": "https://estadisticas.seps.gob.ec/index.php/sdm_categories/bases-financiero/",
+        "ok": true,
+        "matches": 0
       }
     ],
     "modes": [
@@ -78,9 +78,9 @@
     "mode": "live",
     "entities": 52,
     "default_ruc": "1790866084001",
-    "generated_at": "2026-10-07T04:03:10.048348+00:00",
-    "bundle_bytes": 5067368,
-    "build_id": "0261007T0403100483480000",
+    "generated_at": "2026-10-07T04:35:10.688958+00:00",
+    "bundle_bytes": 5067367,
+    "build_id": "0261007T0435106889580000",
     "index": "/content/drive/MyDrive/seps-segmento1-risk/githubpage/index.html"
   },
   "storage": {
@@ -92,17 +92,17 @@
     "sources": 9,
     "path": "/content/drive/MyDrive/seps-segmento1-risk/data/parquet/eeff"
   },
-  "finished_at": "2026-10-07T04:04:12.396873+00:00",
+  "finished_at": "2026-10-07T04:36:17.034821+00:00",
   "atlas": {
-    "nodes": 271,
-    "edges": 277,
-    "files": 91,
+    "nodes": 275,
+    "edges": 280,
+    "files": 92,
     "unresolved": 0,
     "handoff": {
       "latest": "atlas/handoff/LATEST_STATE.zip",
-      "snapshot": "atlas/handoff/snapshots/SEPS_STATE_20261007040438.zip",
-      "files": 122,
-      "sha256": "98431c2a324decc2d84e3a5ad7679f2c1d7be1f53e2967e21a65f7ca7901a730"
+      "snapshot": "atlas/handoff/snapshots/SEPS_STATE_20261007043718.zip",
+      "files": 123,
+      "sha256": "f8119f1426d06893ff2bf44c03ed70012f05fc23946e8a6fa9027686e6452713"
     }
   }
 }

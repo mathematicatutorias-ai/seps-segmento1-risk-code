@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T04:04:36.048310+00:00",
+  "generated_at": "2026-10-07T04:37:12.260799+00:00",
   "project": "seps-segmento1-risk",
-  "version": "0.16.0",
-  "update": 16,
-  "file_count": 91,
-  "project_sha256": "f9cf613115fa3a24cc3664f60af9f9a8f2ae5bf7581717330e0f471dd945a14c"
+  "version": "0.17.0",
+  "update": 17,
+  "file_count": 92,
+  "project_sha256": "ec2c7474447775e666034c7f13e91952ecb01a2572be7fa9d3e2cff2a3d23174"
 }

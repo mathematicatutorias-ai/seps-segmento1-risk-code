@@ -69,3 +69,8 @@ Las tarjetas resumen comparan el último valor con el cierre del período anteri
   - `ASOCIACION MUTUALISTA DE AHORRO Y CREDITO PARA LA VIVIENDA` → `MUTUALISTA`
 - Los alias humanos viven en `config/entity_aliases.yaml`; no se codifican dentro del JavaScript o Python.
 - El selector debe seguir siendo 100 % estático y funcionar en GitHub Pages sin backend.
+
+
+## Selector de entidad 017
+
+El dashboard debe exponer todo el universo disponible al abrir el combobox sin consulta. La búsqueda filtra por RUC, razón social, nombre corto, sigla y alias sin alterar el RUC como identidad interna. La representación compacta es solo de UX.

@@ -1,3 +1,13 @@
+# 0.17.0 · Update 017
+
+- El buscador de entidad muestra **todas las instituciones disponibles** al abrirse sin texto; se elimina el límite artificial de resultados del 016.
+- La búsqueda sigue filtrando el universo completo por RUC, razón social, nombre corto, sigla generada y aliases YAML.
+- Cada resultado muestra de forma discreta el último corte disponible cuando existe.
+- El control de entidad usa exactamente el mismo caret visual que Periodo, Agregación y Visual.
+- Encabezado simplificado a **MONITOR DE RIESGO FINANCIERO**; la razón social legal permanece como subtítulo.
+- En escritorio los controles Entidad, Periodo, Agregación, Visual y Corte se mantienen en una sola fila; el responsive conserva wrapping solo en pantallas más estrechas.
+- No cambia cálculo financiero, Parquet, SHA, discovery ni lógica incremental.
+
 # 0.16.0 · Update 016
 
 - El selector de entidad pasa de `<select>` a buscador/autocompletado estático y accesible.
